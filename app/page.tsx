@@ -148,7 +148,7 @@ export default function Home() {
       <main id="main">
         <section className="relative isolate overflow-hidden pt-32">
           <div
-            className="absolute inset-0 -z-10 bg-[url('/hero-bg.svg')] bg-cover bg-center"
+            className="absolute inset-0 -z-10 bg-[url('/logo/bali.png')] bg-cover bg-center"
             aria-hidden="true"
           />
           <div className="absolute inset-0 -z-10 bg-black/55" aria-hidden="true" />
