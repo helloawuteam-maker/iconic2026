@@ -49,7 +49,7 @@ export default function OrganizationPage() {
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
               <dt className="font-black">Event</dt>
               <dd className="text-zinc-700">
-                Dr. Agustami Sitorus, M.Sc (Chair), Muhammad Nasrudin, M. Stat. (Co-chair) and Lintang Inggrihaning Putri, S.Ak. (Co-chair)
+                Dr. Agustami Sitorus, M.Sc (Chair), Muhammad Nasrudin, M. Stat. (Co-chair) and Lintang Inggrihaning Putri, S.Ak. (Member)
               </dd>
             </div>
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
