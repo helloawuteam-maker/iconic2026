@@ -22,64 +22,64 @@ export default function OrganizationPage() {
           <dl className="mt-4 grid gap-4 text-sm text-zinc-800">
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
               <dt className="font-black">General Chair</dt>
-              <dd className="text-zinc-700">Dr.Eng. Muhammad Zulhaj Aliansyah, S.T., M.Eng.</dd>
+              <dd className="text-zinc-700">Dr.Eng. Muhammad Zulhaj Aliansyah, S.T., M.Eng. (Chair)</dd>
             </div>
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
               <dt className="font-black">Treasurer</dt>
-              <dd className="text-zinc-700">Aviolla Terza Damaliana, S.Si., M.Stat. (Ketua) dan dr. Mega Rizkya Afiana</dd>
+              <dd className="text-zinc-700">Aviolla Terza Damaliana, S.Si., M.Stat. (Chair) and Dr. Mega Rizkya Afiana (Co-chair)</dd>
             </div>
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
               <dt className="font-black">Technical Program</dt>
               <dd className="text-zinc-700">
-                Dr. Eng, Ir. Irfan Mujahidin, S.T., M.T., M.,Sc., IPP (Polines, Ketua) dan Alfan Rizaldy Pratama, S.Tr.T.,
+                Dr. Eng, Ir. Irfan Mujahidin, S.T., M.T., M.,Sc., IPP (Chair) and Alfan Rizaldy Pratama, S.Tr.T. (Co-chair),
                 M.Tr.Kom.
               </dd>
             </div>
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
               <dt className="font-black">Secretary</dt>
               <dd className="text-zinc-700">
-                Dr.Eng. Adelhard Beni Rehiara, S.T., M.Eng. (Ketua, Univ Papua) dan Shindi Shella May Wara, M. Stat.
+                Dr.Eng. Adelhard Beni Rehiara, S.T., M.Eng. (Chair) and Shindi Shella May Wara, M. Stat. (Co-chair)
               </dd>
             </div>
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
               <dt className="font-black">Secretariat</dt>
               <dd className="text-zinc-700">
-                Dr. Eng., Nurlaili Humaidah, S.T., M.T. (Ketua, ITS) dan Andri Fauzan Adziima, M. Si.
+                Dr. Eng., Nurlaili Humaidah, S.T., M.T. (Chair) and Andri Fauzan Adziima, M. Si. (Co-chair)
               </dd>
             </div>
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
               <dt className="font-black">Event</dt>
               <dd className="text-zinc-700">
-                Dr. Agustami Sitorus, M.Sc (Ketua), Lintang Inggrihaning Putri, S.Ak. dan Muhammad Nasrudin, M. Stat.
+                Dr. Agustami Sitorus, M.Sc (Chair), Lintang Inggrihaning Putri, S.Ak. (Co-chair) and Muhammad Nasrudin, M. Stat. (Co-chair)
               </dd>
             </div>
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
               <dt className="font-black">Publication</dt>
               <dd className="text-zinc-700">
-                Dr.Eng. Puput Dani Prasetyo Adi, S.Kom., M.T. (Ketua, BRIN), Amri Muhaimin, S.Stat., M.Stat., M.S. dan Yoga
+                Dr.Eng. Puput Dani Prasetyo Adi, S.Kom., M.T. (Chair), Amri Muhaimin, S.Stat., M.Stat., M.S. (Co-chair) and Yoga
                 Samudra, S.Kom., M.Kom.
               </dd>
             </div>
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
               <dt className="font-black">International Program</dt>
               <dd className="text-zinc-700">
-                Dr. Eng. Ir. Anggraini Puspita Sari, S.T., M.T. (Ketua) dan Dr. Iwan Pramesti Anwar, S.Si.,M.Si
+                Dr. Eng. Ir. Anggraini Puspita Sari, S.T., M.T. (Chair) and Dr. Iwan Pramesti Anwar, S.Si.,M.Si (Co-chair)
               </dd>
             </div>
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
               <dt className="font-black">Sponsorship and Promotion</dt>
               <dd className="text-zinc-700">
-                Dr.Eng. Ir. Muhammad Abdillah, S.T., M.T., IPM (Ketua, Pertamina Univ) dan Dr. Eng. Ir. Dwi Arman Prasetya,
+                Dr.Eng. Ir. Muhammad Abdillah, S.T., M.T., IPM (Chair) and Dr. Eng. Ir. Dwi Arman Prasetya (Co-chair),
                 ST., MT., IPU
               </dd>
             </div>
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
               <dt className="font-black">General</dt>
-              <dd className="text-zinc-700">Nurul Awaliyah Mukhlis, M.Pd. (Ketua) dan Uswatun Khasana, S.Tr.T.</dd>
+              <dd className="text-zinc-700">Nurul Awaliyah Mukhlis, M.Pd. (Chair) and Uswatun Khasana, S.Tr.T. (Co-chair)</dd>
             </div>
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
               <dt className="font-black">Keynote Speakers</dt>
-              <dd className="text-zinc-700">Prof. Nur Iriawan (ITS), Anuar Khasim (UTEM)</dd>
+              <dd className="text-zinc-700">Prof. Nur Iriawan (Chair), Anuar Khasim (Co-chair)</dd>
             </div>
           </dl>
         </section>
