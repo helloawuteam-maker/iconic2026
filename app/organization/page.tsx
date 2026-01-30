@@ -31,8 +31,7 @@ export default function OrganizationPage() {
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
               <dt className="font-black">Technical Program</dt>
               <dd className="text-zinc-700">
-                Dr. Eng, Ir. Irfan Mujahidin, S.T., M.T., M.,Sc., IPP (Chair) and Alfan Rizaldy Pratama, S.Tr.T. (Co-chair),
-                M.Tr.Kom.
+                Dr. Eng, Ir. Irfan Mujahidin, S.T., M.T., M.,Sc., IPP (Chair) and Alfan Rizaldy Pratama, S.Tr.T. M.Tr.Kom.(Co-chair)
               </dd>
             </div>
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
@@ -57,7 +56,7 @@ export default function OrganizationPage() {
               <dt className="font-black">Publication</dt>
               <dd className="text-zinc-700">
                 Dr.Eng. Puput Dani Prasetyo Adi, S.Kom., M.T. (Chair), Amri Muhaimin, S.Stat., M.Stat., M.S. (Co-chair) and Yoga
-                Samudra, S.Kom., M.Kom.
+                Samudra, S.Kom., M.Kom. (Member)
               </dd>
             </div>
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
@@ -69,17 +68,12 @@ export default function OrganizationPage() {
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
               <dt className="font-black">Sponsorship and Promotion</dt>
               <dd className="text-zinc-700">
-                Dr.Eng. Ir. Muhammad Abdillah, S.T., M.T., IPM (Chair) and Dr. Eng. Ir. Dwi Arman Prasetya (Co-chair),
-                ST., MT., IPU
+                Dr.Eng. Ir. Muhammad Abdillah, S.T., M.T., IPM (Chair) and Dr. Eng. Ir. Dwi Arman Prasetya ST., MT., IPU (Co-chair)
               </dd>
             </div>
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
               <dt className="font-black">General</dt>
               <dd className="text-zinc-700">Nurul Awaliyah Mukhlis, M.Pd. (Chair) and Uswatun Khasana, S.Tr.T. (Co-chair)</dd>
-            </div>
-            <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
-              <dt className="font-black">Keynote Speakers</dt>
-              <dd className="text-zinc-700">Prof. Nur Iriawan (Chair), Anuar Khasim (Co-chair)</dd>
             </div>
           </dl>
         </section>
