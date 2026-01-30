@@ -122,7 +122,7 @@ export default function AuthorInformationPage() {
           <div className="mt-5 flex flex-wrap gap-3">
             <a
               className="inline-flex items-center justify-center rounded-xl bg-[#633193] px-6 py-3 text-sm font-black text-white shadow-[0_14px_34px_rgba(99,49,147,0.25)] hover:bg-[#5a2c86]"
-              href="https://edas.info/N34850"
+              href=""
               target="_blank"
               rel="noopener"
             >
