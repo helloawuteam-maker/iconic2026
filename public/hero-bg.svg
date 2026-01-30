@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="Hero background">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb65c"/>
+      <stop offset="0.55" stop-color="#f36e33"/>
+      <stop offset="1" stop-color="#1b1c36"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.75" cy="0.32" r="0.22">
+      <stop offset="0" stop-color="#fff6ab" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#fff6ab" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fog" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#000" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <rect width="1920" height="1080" fill="url(#sun)"/>
+
+  <g opacity="0.25">
+    <path d="M0 680 C 240 600, 460 760, 720 700 C 960 650, 1120 740, 1440 690 C 1660 655, 1780 720, 1920 690 L 1920 1080 L 0 1080 Z" fill="#000"/>
+  </g>
+
+  <g opacity="0.55">
+    <path d="M0 770 C 260 690, 520 860, 820 785 C 1040 730, 1280 860, 1540 785 C 1720 740, 1820 805, 1920 780 L 1920 1080 L 0 1080 Z" fill="#0b0b12"/>
+  </g>
+
+  <g opacity="0.9" fill="#05050a">
+    <path d="M150 1080 L 340 1080 L 340 820 L 305 800 L 320 760 L 290 735 L 300 700 L 260 670 L 275 635 L 240 610 L 255 575 L 220 545 L 230 520 L 195 500 L 205 470 L 180 455 L 190 430 L 165 415 L 175 395 L 150 380 Z"/>
+    <path d="M1500 1080 L 1690 1080 L 1690 860 L 1655 835 L 1670 795 L 1640 770 L 1650 735 L 1610 705 L 1625 670 L 1590 645 L 1605 610 L 1570 580 L 1580 555 L 1545 535 L 1555 505 L 1530 490 L 1540 465 L 1515 450 L 1525 430 L 1500 415 Z"/>
+    <path d="M860 1080 L 1060 1080 L 1060 890 L 1020 860 L 1040 815 L 1005 790 L 1018 750 L 980 720 L 995 680 L 960 655 L 975 620 L 940 590 L 950 565 L 915 545 L 925 515 L 900 500 L 910 475 L 885 460 L 895 440 L 860 420 Z" opacity="0.85"/>
+  </g>
+
+  <rect width="1920" height="1080" fill="url(#fog)"/>
+</svg>
