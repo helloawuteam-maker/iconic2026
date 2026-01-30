@@ -22,7 +22,7 @@ export default function OrganizationPage() {
           <dl className="mt-4 grid gap-4 text-sm text-zinc-800">
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
               <dt className="font-black">General Chair</dt>
-              <dd className="text-zinc-700">Dr.Eng. Muhammad Zulhaj Aliansyah, S.T., M.Eng. (Chair)</dd>
+              <dd className="text-zinc-700">Dr.Eng. Muhammad Zulhaj Aliansyah, S.T., M.Eng.</dd>
             </div>
             <div className="grid gap-1 md:grid-cols-[220px_1fr] md:gap-6">
               <dt className="font-black">Treasurer</dt>
