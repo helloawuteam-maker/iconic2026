@@ -34,7 +34,7 @@ export default function TrackSlider({ heading, tracks }: TrackSliderProps) {
     <section id="programs" className="bg-[linear-gradient(180deg,rgba(245,245,247,0.70)_0%,rgba(245,245,247,0.35)_100%)] py-16">
       <div className="mx-auto w-full px-5">
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-          <h2 className="text-center text-3xl font-black tracking-tight text-[#f36e33] md:text-left md:text-4xl">
+          <h2 className="text-center text-3xl font-black tracking-tight text-[#2b327e] md:text-left md:text-4xl">
             {heading}
           </h2>
           <div className="flex items-center gap-2 lg:hidden">

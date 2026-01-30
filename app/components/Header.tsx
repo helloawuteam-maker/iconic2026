@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Image from "next/image";
 
 type NavItem = {
   label: string;
@@ -53,16 +54,18 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 bg-[#f36e33] text-white shadow-sm">
+    <header className="sticky top-0 z-50 bg-[#2b327e] text-white shadow-sm">
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-5 py-4">
-        <a href="#top" className="flex items-center gap-3">
-          <span className="grid h-10 w-10 place-items-center rounded-xl bg-white/10 font-black tracking-wide">
-            IQ
-          </span>
-          <span className="leading-tight">
-            <span className="block text-sm font-black tracking-wide">2026 ICONIQ</span>
-            <span className="block text-xs font-semibold text-white/85">IEEE International Conference</span>
-          </span>
+        <a href="#top" className="flex items-center">
+          <Image
+            src="/logo/iconiq.png"
+            alt="ICONIQ 2026"
+            width={420}
+            height={208}
+            priority
+            unoptimized
+            className="h-9 w-auto rounded-md bg-white/95 px-2 py-1 object-contain ring-1 ring-black/10 md:h-10 md:px-3"
+          />
         </a>
 
         <button

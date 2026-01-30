@@ -114,7 +114,7 @@ const homeTracks = [
       "Big Data as a Service",
       "Geographic Information System (GIS)",
     ],
-    gradientClassName: "bg-gradient-to-br from-[#b45309] via-[#f36e33] to-[#7c2d12]",
+    gradientClassName: "bg-gradient-to-br from-[#0ea5a4] via-[#2b327e] to-[#3b1f58]",
   },
   {
     id: "track-5",
@@ -179,7 +179,7 @@ export default function Home() {
                 </h2>
 
                 <h2 className="mt-4 text-sm font-semibold italic text-white/90 md:text-lg">
-                  Bringing Human Behavior and Social Dynamics into the Technological Ecosystem
+                  Bridging Human Behavior and Social Dynamics for Trustworthy, High-Quality Technology
                 </h2>
 
                 <div className="mt-10 flex justify-center">
@@ -217,7 +217,7 @@ export default function Home() {
         <TrackSlider heading="ICONIQ 2026 Tracks" tracks={[...homeTracks]} />
 
         <section className="relative overflow-hidden py-16 text-white">
-          <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(243,110,51,0.86)_0%,rgba(255,246,171,0.76)_100%),radial-gradient(1000px_600px_at_60%_50%,rgba(17,17,36,0.55)_0%,rgba(17,17,36,0)_70%),linear-gradient(135deg,#3b1f58_0%,#2b327e_45%,#111124_100%)]" />
+          <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(43,50,126,0.86)_0%,rgba(14,165,164,0.76)_100%),radial-gradient(1000px_600px_at_60%_50%,rgba(17,17,36,0.55)_0%,rgba(17,17,36,0)_70%),linear-gradient(135deg,#3b1f58_0%,#2b327e_45%,#111124_100%)]" />
           <div className="relative mx-auto w-full max-w-6xl px-5">
             <p className="text-sm font-black opacity-95">2026 IEEE International Conference (2026 ICONIQ)</p>
             <h2 className="mt-2 text-3xl font-black tracking-tight md:text-4xl">Innovation and Quality in Engineering and Technology:</h2>
@@ -272,7 +272,7 @@ export default function Home() {
             <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-2">
               {keynoteSpeakers.map((s) => (
                 <div key={s.name} className="rounded-2xl border border-black/5 bg-white p-4 shadow-sm">
-                  <div className="flex h-64 w-full items-center justify-center overflow-hidden rounded-2xl border border-black/5 bg-[radial-gradient(400px_260px_at_30%_20%,rgba(99,49,147,0.25)_0%,rgba(99,49,147,0)_60%),radial-gradient(380px_240px_at_80%_20%,rgba(243,110,51,0.22)_0%,rgba(243,110,51,0)_60%),linear-gradient(135deg,rgba(17,17,36,0.10)_0%,rgba(17,17,36,0.04)_100%)] sm:h-72">
+                  <div className="flex h-64 w-full items-center justify-center overflow-hidden rounded-2xl border border-black/5 bg-[radial-gradient(400px_260px_at_30%_20%,rgba(99,49,147,0.25)_0%,rgba(99,49,147,0)_60%),radial-gradient(380px_240px_at_80%_20%,rgba(14,165,164,0.22)_0%,rgba(14,165,164,0)_60%),linear-gradient(135deg,rgba(17,17,36,0.10)_0%,rgba(17,17,36,0.04)_100%)] sm:h-72">
                     {s.imageSrc ? (
                       <img src={s.imageSrc} alt={s.name} className="max-h-full w-auto max-w-full object-contain" loading="lazy" />
                     ) : null}
@@ -370,7 +370,7 @@ export default function Home() {
                 </p>
 
                 <a
-                  className="mt-5 inline-flex items-center justify-center rounded-xl bg-gradient-to-br from-[#633193] via-[#2b327e] to-[#f36e33] px-5 py-3 text-sm font-black text-white shadow-sm"
+                  className="mt-5 inline-flex items-center justify-center rounded-xl bg-gradient-to-br from-[#633193] via-[#2b327e] to-[#0ea5a4] px-5 py-3 text-sm font-black text-white shadow-sm"
                   href="#"
                   target="_blank"
                   rel="noopener"
@@ -425,7 +425,7 @@ export default function Home() {
         <section className="bg-white py-16">
           <div className="mx-auto w-full max-w-6xl px-5">
             <div className="text-center">
-              <h3 className="text-xl font-black text-[#f36e33]">Organized by</h3>
+              <h3 className="text-xl font-black text-[#2b327e]">Organized by</h3>
               <div className="mt-8 flex flex-wrap items-center justify-center gap-10">
                 <div className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
                   <img
