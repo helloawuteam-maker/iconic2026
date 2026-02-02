@@ -412,7 +412,7 @@ export default function Home() {
                 <div className="mt-6 flex justify-center md:justify-start">
                   <a
                     className="inline-flex items-center justify-center rounded-xl bg-[#2b327e] px-8 py-3 text-sm font-black text-white shadow-sm hover:bg-[#1f2460]"
-                    href="/"
+                    href="https://edas.info/N34945"
                   >
                     Submit Your Paper
                   </a>
