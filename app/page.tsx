@@ -390,12 +390,12 @@ export default function Home() {
           <div className="mx-auto w-full max-w-6xl px-5">
             <div className="grid gap-10 md:grid-cols-2">
               <div className="text-center md:text-left">
-                <h3 className="text-xl font-black text-[#633193]">IES 2026 Paper Template</h3>
+                <h3 className="text-xl font-black text-[#633193]">ICONIQ 2026 Paper Template (Ms. Word Only)</h3>
                 <p className="mt-2 text-sm font-semibold text-zinc-600">Please refer to IEEE template Manuscripts</p>
                 <div className="mt-6 flex justify-center md:justify-start">
                   <a
-                    className="inline-flex items-center justify-center rounded-xl bg-[#633193] px-8 py-3 text-sm font-black text-white shadow-sm hover:bg-[#5a2c86]"
-                    href="https://www.ieee.org/conferences/publishing/templates.html"
+                    className="inline-flex items-center justify-center rounded-2xl bg-[#633193] px-8 py-3 text-sm font-black text-white shadow-sm hover:bg-[#5a2c86]"
+                    href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-template-a4.docx"
                     target="_blank"
                     rel="noopener"
                   >

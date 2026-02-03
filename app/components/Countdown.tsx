@@ -33,7 +33,7 @@ function computeTimeLeft(target: Date): TimeLeft {
   return { days, hours, minutes, seconds };
 }
 
-export default function Countdown({ targetISO, title = "IES 2026", note }: Props) {
+export default function Countdown({ targetISO, title = "ICONIQ 2026", note }: Props) {
   const target = useMemo(() => new Date(targetISO), [targetISO]);
   const [timeLeft, setTimeLeft] = useState<TimeLeft>(() => computeTimeLeft(target));
 

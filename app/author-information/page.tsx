@@ -93,6 +93,16 @@ export default function AuthorInformationPage() {
             strictly (paper size, margins, fonts, and reference style). Submissions should be written in clear English and present
             sufficient technical detail to support reproducibility.
           </p>
+          <h3 className="mt-5 text-sm font-black text-zinc-900">Guidelines</h3>
+          <p className="mt-2 text-sm text-zinc-700">
+            All papers must be submitted electronically through the EDAS Conference papers submission system. To ensure high
+            standards, all contributed papers will be reviewed by three independent reviewers. Reviews are double blind. Based on
+            the reviewers’ comments, the Coordinating Scientist will take a decision on the acceptance of the papers. Upon
+            acceptance of the Full Paper, the author will be notified via email, and the author shall incorporate the reviewers’
+            suggested corrections to the manuscript and submit the revised manuscript as Camera Ready Submission to the EDAS
+            Conference papers submission system.
+          </p>
+
           <ul className="mt-4 grid gap-2 pl-5 text-sm text-zinc-700">
             <li className="list-disc">
               <strong className="font-black text-zinc-900">Originality:</strong> papers must be original and not under review or
@@ -109,6 +119,48 @@ export default function AuthorInformationPage() {
             <li className="list-disc">
               <strong className="font-black text-zinc-900">Presentation:</strong> at least one author must register and present the
               paper according to the conference schedule.
+            </li>
+          </ul>
+
+          <h3 className="mt-5 text-sm font-black text-zinc-900">First Paper Submission</h3>
+          <p className="mt-2 text-sm text-zinc-700">
+            All papers submitted to the ICONIQ 2026 must be written in English and formatted in the standard IEEE Xplore
+            double-column format (A4 size). Please use the Microsoft Word template only.
+          </p>
+          <ul className="mt-4 grid gap-2 pl-5 text-sm text-zinc-700">
+            <li className="list-disc">
+              All papers must be submitted electronically through the EDAS Conference papers submission system at{" "}
+              <a className="font-semibold text-[#2b327e] underline" href="https://iconiq2026.edas.info/" target="_blank" rel="noopener">
+                https://iconiq2026.edas.info/
+              </a>
+              . It is suggested that you use Firefox or Chrome instead of Internet Explorer.
+            </li>
+            <li className="list-disc">All regular and invited papers are limited to six (6) pages.</li>
+            <li className="list-disc">Additional pages will be charged IDR 250,000 (or US$ 15) per page.</li>
+            <li className="list-disc">
+              The decision regarding the acceptance of the papers is at the discretion of the Technical Program Committee. Note
+              that short manuscripts are not considered.
+            </li>
+            <li className="list-disc">
+              To facilitate the paper’s double-blind peer-review process, authors should ensure that information about the authors’
+              identities does not appear anywhere in the text body of the paper (for the first submission).
+            </li>
+            <li className="list-disc">
+              Upon acceptance, at least one of the authors listed in the paper must attend the conference and present the paper
+              according to the conference schedule. In the event that the presenter is unable to attend the conference for any
+              reason, the accepted paper will not be considered for submission of the proceeding to the IEEE Xplore.
+            </li>
+            <li className="list-disc">
+              At least one of the authors listed on the paper must register for ICONIQ 2026 to upload the final manuscript.
+            </li>
+            <li className="list-disc">
+              An official Acceptance Letter or Official Invitation Letter will be given after the registrant pays the registration
+              fee.
+            </li>
+            <li className="list-disc">
+              <strong className="font-black text-zinc-900">NOTE:</strong> Accepted papers will be submitted to IEEE Xplore for
+              inclusion, subject to its scope and quality requirements. Inclusion in Xplore® and indexing in Scopus are not
+              guaranteed.
             </li>
           </ul>
         </section>
@@ -130,7 +182,7 @@ export default function AuthorInformationPage() {
             </a>
             <a
               className="inline-flex items-center justify-center rounded-xl border border-[#633193]/25 bg-white px-6 py-3 text-sm font-black text-[#633193] hover:bg-[#633193]/10"
-              href="https://www.ieee.org/conferences/publishing/templates.html"
+              href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-template-a4.docx"
               target="_blank"
               rel="noopener"
             >
