@@ -136,7 +136,7 @@ export default function AuthorInformationPage() {
               . It is suggested that you use Firefox or Chrome instead of Internet Explorer.
             </li>
             <li className="list-disc">All regular and invited papers are limited to six (6) pages.</li>
-            <li className="list-disc">Additional pages will be charged IDR 250,000 (or US$ 15) per page.</li>
+            <li className="list-disc">Additional pages will be charged at IDR 250,000 (or US$15) per page, with a maximum of 8 pages.</li>
             <li className="list-disc">
               The decision regarding the acceptance of the papers is at the discretion of the Technical Program Committee. Note
               that short manuscripts are not considered.

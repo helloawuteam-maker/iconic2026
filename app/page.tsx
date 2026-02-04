@@ -146,7 +146,7 @@ export default function Home() {
       <Header />
 
       <main id="main">
-        <section className="relative isolate overflow-hidden pt-32">
+        <section className="relative isolate overflow-hidden pt-12 md:pt-14">
           <div
             className="absolute inset-0 -z-10 bg-[url('/logo/bali.png')] bg-cover bg-center"
             aria-hidden="true"
@@ -160,7 +160,7 @@ export default function Home() {
                   August 28 – 30, 2026 | Bali, Indonesia
                 </h2>
 
-                <h1 className="mt-7 text-4xl font-black uppercase leading-[0.92] tracking-wide drop-shadow md:text-6xl">
+                <h1 className="mt-5 text-4xl font-black uppercase leading-[0.92] tracking-wide drop-shadow md:text-6xl">
                   2026 IEEE
                   <br />
                   International Conference
@@ -172,28 +172,63 @@ export default function Home() {
                   (2026 ICONIQ)
                 </h1>
 
-                <h2 className="mt-6">
+                <h2 className="mt-4">
                   <span className="inline-block bg-[#fff6ab] px-3 py-2 text-lg font-black text-[#633193] md:text-2xl">
                     Innovation and Quality in Engineering and Technology:
                   </span>
                 </h2>
 
-                <h2 className="mt-4 text-sm font-semibold italic text-white/90 md:text-lg">
+                <h2 className="mt-3 text-sm font-semibold italic text-white/90 md:text-lg">
                   Bridging Human Behavior and Social Dynamics for Trustworthy, High-Quality Technology
                 </h2>
 
-                <div className="mt-10 flex justify-center">
+                <div className="mt-5 flex flex-wrap justify-center gap-3">
                   <a
                     className="inline-flex items-center justify-center rounded-xl bg-[#633193] px-10 py-3 text-sm font-black text-white shadow-[0_14px_34px_rgba(99,49,147,0.35)] hover:bg-[#5a2c86]"
-                    href="/author-information#submission"
+                    href="https://edas.info/N34945"
                   >
-                    Submit
+                    Register Now Hybrid Conference
                   </a>
+                </div>
+
+                <div className="mt-6 overflow-hidden rounded-2xl border border-white/15 bg-white/10 shadow-sm backdrop-blur">
+                  <dl className="grid gap-px bg-white/10 sm:grid-cols-2 md:grid-cols-4">
+                    <div className="px-5 py-4">
+                      <dt className="text-xs font-black uppercase tracking-[0.18em] text-white/90">Venue</dt>
+                      <dd className="mt-2 text-sm font-semibold text-white">
+                        Hilton Garden Inn Bali Ngurah Rai Airport
+                      </dd>
+                    </div>
+                    <div className="px-5 py-4">
+                      <dt className="text-xs font-black uppercase tracking-[0.18em] text-white/90">Event Format</dt>
+                      <dd className="mt-2 text-sm font-semibold text-white">Hybrid (In-person and Virtual)</dd>
+                    </div>
+                    <div className="px-5 py-4">
+                      <dt className="text-xs font-black uppercase tracking-[0.18em] text-white/90">Call / Whatsapp</dt>
+                      <dd className="mt-2 text-sm font-semibold">
+                        <a className="text-white hover:underline" href="tel:+6289524180486">
+                          +62 895-2418-0486
+                        </a>
+                        <span className="text-white/80"> / </span>
+                        <a className="text-white hover:underline" href="tel:+62895335857578">
+                          +62 895-3358-57578
+                        </a>
+                      </dd>
+                    </div>
+                    <div className="px-5 py-4">
+                      <dt className="text-xs font-black uppercase tracking-[0.18em] text-white/90">Email us</dt>
+                      <dd className="mt-2 text-sm font-semibold">
+                        <a className="text-white hover:underline" href="mailto:iconiq@apskin.org">
+                          iconiq@apskin.org
+                        </a>
+                      </dd>
+                    </div>
+                  </dl>
                 </div>
               </div>
             </div>
 
-            <div className="mt-12 rounded-2xl bg-white p-4 shadow-sm">
+            <div className="mt-6 rounded-2xl bg-white p-4 shadow-sm">
               <div className="grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
                 <div className="col-span-2 flex items-center rounded-xl border border-black/10 bg-white px-4 py-4 md:col-span-1">
                   <h3 className="text-sm font-black text-zinc-900">Supported by</h3>
