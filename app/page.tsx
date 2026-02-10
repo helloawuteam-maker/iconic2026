@@ -463,12 +463,20 @@ export default function Home() {
               <h3 className="text-xl font-black text-[#2b327e]">Organized by</h3>
               <div className="mt-8 flex flex-wrap items-center justify-center gap-10">
                 <div className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
-                  <img
-                    src="/logo/ieee.jpeg"
-                    alt="IEEE Indonesia Section"
-                    className="h-16 w-auto object-contain sm:h-20"
-                    loading="lazy"
-                  />
+                  <div className="flex flex-wrap items-center justify-center gap-6">
+                    <img
+                      src="/logo/ieee.jpeg"
+                      alt="IEEE Indonesia Section"
+                      className="h-16 w-auto object-contain sm:h-20"
+                      loading="lazy"
+                    />
+                    <img
+                      src="/logo/ieeeims.png"
+                      alt="IEEE Indonesia IMS/ITS Joint Chapter"
+                      className="h-16 w-auto object-contain sm:h-20"
+                      loading="lazy"
+                    />
+                  </div>
                 </div>
 
                 <div className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">

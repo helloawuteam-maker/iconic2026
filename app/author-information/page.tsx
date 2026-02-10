@@ -158,9 +158,7 @@ export default function AuthorInformationPage() {
               fee.
             </li>
             <li className="list-disc">
-              <strong className="font-black text-zinc-900">NOTE:</strong> Accepted papers will be submitted to IEEE Xplore for
-              inclusion, subject to its scope and quality requirements. Inclusion in Xplore® and indexing in Scopus are not
-              guaranteed.
+              <strong className="font-black text-zinc-900">NOTE:</strong> Papers that are accepted and presented at ICONIQ 2026  will be submitted for publication in IEEE Xplore. IEEE reserves the right to exclude a paper from distributions after the conference, including the IEEE Xplore Digital Library, if the paper is not presented by the author at the conference and does not meet the IEEE criteria.
             </li>
           </ul>
         </section>
