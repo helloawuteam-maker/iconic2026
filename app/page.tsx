@@ -324,7 +324,7 @@ export default function Home() {
         <section id="registrationfee" className="py-16">
           <div className="mx-auto w-full max-w-6xl px-5">
             <h2 className="text-3xl font-black tracking-tight">Registration Fee</h2>
-            <p className="mt-2 text-sm font-semibold text-zinc-600">~please scroll to the right~</p>
+            <p className="mt-2 text-sm font-semibold text-zinc-600">*Eligible Members: IEEE / APSKIN Members</p>
 
             <div className="mt-5 overflow-auto rounded-2xl border border-black/5 bg-white shadow-sm" tabIndex={0}>
               <table className="min-w-[980px] w-full border-separate border-spacing-0">
@@ -399,7 +399,7 @@ export default function Home() {
                   <br />
                   – The payment receipt
                   <br />
-                  – Proof of IEEE membership (optional)
+                  – Proof of IEEE / APSKIN membership (optional)
                   <br />
                   – Student ID card (optional)
                 </p>
