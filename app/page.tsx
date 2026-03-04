@@ -33,6 +33,12 @@ const keynoteSpeakers: Speaker[] = [
     imageSrc: "/speakers/nobuo-funabiki.jpg",
   },
   {
+    name: "Prof. Jing-Ming Guo",
+    role: "National Taiwan University of Science and Technology",
+    note: "(To be confirmed)",
+    imageSrc: "/speakers/jing-ming.jpg",
+  },
+  {
     name: "Prof., Drs., Nur Iriawan, M.IKom., Ph.D.",
     role: "Institut Teknologi Sepuluh November - Indonesia",
     note: "(To be confirmed)",
@@ -304,7 +310,7 @@ export default function Home() {
               <h2 className="text-3xl font-black tracking-tight">Keynote Speakers</h2>
             </div>
 
-            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-2">
+            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {keynoteSpeakers.map((s) => (
                 <div key={s.name} className="rounded-2xl border border-black/5 bg-white p-4 shadow-sm">
                   <div className="flex h-64 w-full items-center justify-center overflow-hidden rounded-2xl border border-black/5 bg-[radial-gradient(400px_260px_at_30%_20%,rgba(99,49,147,0.25)_0%,rgba(99,49,147,0)_60%),radial-gradient(380px_240px_at_80%_20%,rgba(14,165,164,0.22)_0%,rgba(14,165,164,0)_60%),linear-gradient(135deg,rgba(17,17,36,0.10)_0%,rgba(17,17,36,0.04)_100%)] sm:h-72">
@@ -365,29 +371,28 @@ export default function Home() {
                 <div className="mt-4 rounded-2xl border border-black/5 bg-black/[0.02] p-4">
                   <div className="flex flex-wrap items-center justify-between gap-2 text-sm">
                     <span className="font-bold text-zinc-600">Bank Name</span>
-                    <strong className="font-black">BANK MANDIRI</strong>
+                    <strong className="font-black">BANK BCA</strong>
                   </div>
                   <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-sm">
                     <span className="font-bold text-zinc-600">Account Name</span>
-                    <strong className="font-black">Mrs. NURUL AWALIYAH MUKHL</strong>
+                    <strong className="font-black">Mrs. Meisya Vira Amelia</strong>
                   </div>
                   <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-sm">
                     <span className="font-bold text-zinc-600">Account Number</span>
-                    <strong className="font-black">1410022806566</strong>
+                    <strong className="font-black">6750928704</strong>
                   </div>
                   <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-sm">
                     <span className="font-bold text-zinc-600">Swift code</span>
-                    <strong className="font-black">BMRIIDJA</strong>
+                    <strong className="font-black">CENAIDJAXXX</strong>
                   </div>
                 </div>
 
                 <p className="mt-4 text-sm text-zinc-700">
                   Address of Bank:
                   <br />
-                  Bank Mandiri KCM Sidoarjo Sukodono
+                  BCA KCP Rungkut Mapan
                   <br />
-                  Jalan Raya Karang Nongko Sukodono, Bukit Permata Sukodono, Blok Ruko 16 Anggaswangi Anggaswangi, Anggaswangi,
-                  Pekarungan, Kec. Sukodono, Kabupaten Sidoarjo, Jawa Timur 61258
+                  Raya Rungkut Mapan / Yakaya, Jl. Rungkut Mapan Utara No.09 Blok BA 08, Surabaya, Jawa Timur 60293
                 </p>
 
                 <p className="mt-3 text-sm font-bold text-zinc-800">
