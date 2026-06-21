@@ -17,12 +17,12 @@ type Speaker = {
 };
 
 const importantDates: DateRow[] = [
-  { label: "Deadline of Paper Submission", value: "April 6, 2026" },
-  { label: "Notification of Paper Acceptance", value: "July 3, 2026" },
-  { label: "Early Bird Registration & Payment", value: "July 17, 2026" },
-  { label: "Deadline of Registration & Payment", value: "July 31, 2026" },
-  { label: "Final Manuscript (Camera Ready)", value: "August 7, 2026" },
-  { label: "Main Conference", value: "August 28 – 30, 2026" },
+  { label: "Deadline of Paper Submission", value: "March 12, 2027" },
+  { label: "Notification of Paper Acceptance", value: "May 28, 2027" },
+  { label: "Early Bird Registration & Payment", value: "June 4, 2027" },
+  { label: "Deadline of Registration & Payment", value: "June 11, 2027" },
+  { label: "Final Manuscript (Camera Ready)", value: "June 14, 2027" },
+  { label: "Main Conference", value: "June 25 – 27, 2027" },
 ];
 
 const keynoteSpeakers: Speaker[] = [
@@ -163,11 +163,11 @@ export default function Home() {
             <div className="grid">
               <div className="text-center">
                 <h2 className="text-sm font-black uppercase tracking-[0.18em] text-white/95 md:text-base">
-                  August 28 – 30, 2026 | Bali, Indonesia
+                  June 25 – 27, 2027 | Bali, Indonesia
                 </h2>
 
                 <h1 className="mt-5 text-4xl font-black uppercase leading-[0.92] tracking-wide drop-shadow md:text-6xl">
-                  2026 IEEE
+                  2027 IEEE
                   <br />
                   International Conference
                   <br />
@@ -175,7 +175,7 @@ export default function Home() {
                   <br />
                   in Engineering and Technology
                   <br />
-                  (2026 ICONIQ)
+                  (2027 ICONIQ)
                 </h1>
 
                 <h2 className="mt-4">
@@ -191,7 +191,7 @@ export default function Home() {
                 <div className="mt-5 flex flex-wrap justify-center gap-3">
                   <a
                     className="inline-flex items-center justify-center rounded-xl bg-[#633193] px-10 py-3 text-sm font-black text-white shadow-[0_14px_34px_rgba(99,49,147,0.35)] hover:bg-[#5a2c86]"
-                    href="https://edas.info/N34945"
+                    href="https://iconiq2027.edas.info/"
                   >
                     Register Now Hybrid Conference
                   </a>
@@ -255,12 +255,12 @@ export default function Home() {
 
         <HomeSection2 />
 
-        <TrackSlider heading="ICONIQ 2026 Tracks" tracks={[...homeTracks]} />
+        <TrackSlider heading="ICONIQ 2027 Tracks" tracks={[...homeTracks]} />
 
         <section className="relative overflow-hidden py-16 text-white">
           <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(43,50,126,0.86)_0%,rgba(14,165,164,0.76)_100%),radial-gradient(1000px_600px_at_60%_50%,rgba(17,17,36,0.55)_0%,rgba(17,17,36,0)_70%),linear-gradient(135deg,#3b1f58_0%,#2b327e_45%,#111124_100%)]" />
           <div className="relative mx-auto w-full max-w-6xl px-5">
-            <p className="text-sm font-black opacity-95">2026 IEEE International Conference (2026 ICONIQ)</p>
+            <p className="text-sm font-black opacity-95">2027 IEEE International Conference (2027 ICONIQ)</p>
             <h2 className="mt-2 text-3xl font-black tracking-tight md:text-4xl">Innovation and Quality in Engineering and Technology:</h2>
             <p className="mt-3 max-w-4xl text-lg font-semibold text-white/95 md:text-xl">
               Bringing Human Behavior and Social Dynamics into the Technological Ecosystem
@@ -268,7 +268,7 @@ export default function Home() {
             <p className="mt-4 text-sm font-black opacity-95">
               Bali, Indonesia
               <br />
-              August 28 – 30, 2026
+              June 25 – 27, 2027
             </p>
           </div>
         </section>
@@ -296,9 +296,9 @@ export default function Home() {
               </div>
 
               <Countdown
-                targetISO="2026-08-28T00:00:00+07:00"
-                title="2026 ICONIQ"
-                note="Target: Aug 28, 2026 (WIB)"
+                targetISO="2027-06-25T00:00:00+07:00"
+                title="2027 ICONIQ"
+                note="Target: Jun 25, 2027 (WIB)"
               />
             </div>
           </div>
@@ -375,28 +375,20 @@ export default function Home() {
                   </div>
                   <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-sm">
                     <span className="font-bold text-zinc-600">Account Name</span>
-                    <strong className="font-black">Mrs. Meisya Vira Amelia</strong>
+                    <strong className="font-black">ASOSIASI PENELITI SAINS</strong>
                   </div>
                   <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-sm">
                     <span className="font-bold text-zinc-600">Account Number</span>
-                    <strong className="font-black">6750928704</strong>
-                  </div>
-                  <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-sm">
-                    <span className="font-bold text-zinc-600">Swift code</span>
-                    <strong className="font-black">CENAIDJAXXX</strong>
+                    <strong className="font-black">8223763888</strong>
                   </div>
                 </div>
 
                 <p className="mt-4 text-sm text-zinc-700">
                   Address of Bank:
                   <br />
-                  BCA KCP Rungkut Mapan
+                  Jl. Kendangsari Industri 2, Kendangsari, Kec. Tenggilis Mejoyo, Kota Surabaya, Jawa Timur
                   <br />
-                  Raya Rungkut Mapan / Yakaya, Jl. Rungkut Mapan Utara No.09 Blok BA 08, Surabaya, Jawa Timur 60293
-                </p>
-
-                <p className="mt-3 text-sm font-bold text-zinc-800">
-                  For participants from outside Indonesia who wish to pay by credit card, please contact us.
+                  Surabaya, Jawa Timur, Indonesia 60292
                 </p>
 
                 <p className="mt-3 text-sm text-zinc-700">
@@ -430,7 +422,7 @@ export default function Home() {
           <div className="mx-auto w-full max-w-6xl px-5">
             <div className="grid gap-10 md:grid-cols-2">
               <div className="text-center md:text-left">
-                <h3 className="text-xl font-black text-[#633193]">ICONIQ 2026 Paper Template (Ms. Word Only)</h3>
+                <h3 className="text-xl font-black text-[#633193]">ICONIQ 2027 Paper Template (Ms. Word Only)</h3>
                 <p className="mt-2 text-sm font-semibold text-zinc-600">Please refer to IEEE template Manuscripts</p>
                 <div className="mt-6 flex justify-center md:justify-start">
                   <a
@@ -452,7 +444,7 @@ export default function Home() {
                 <div className="mt-6 flex justify-center md:justify-start">
                   <a
                     className="inline-flex items-center justify-center rounded-xl bg-[#2b327e] px-8 py-3 text-sm font-black text-white shadow-sm hover:bg-[#1f2460]"
-                    href="https://edas.info/N34945"
+                    href="https://iconiq2027.edas.info/"
                   >
                     Submit Your Paper
                   </a>
@@ -467,23 +459,6 @@ export default function Home() {
             <div className="text-center">
               <h3 className="text-xl font-black text-[#2b327e]">Organized by</h3>
               <div className="mt-8 flex flex-wrap items-center justify-center gap-10">
-                <div className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
-                  <div className="flex flex-wrap items-center justify-center gap-6">
-                    <img
-                      src="/logo/ieee.jpeg"
-                      alt="IEEE Indonesia Section"
-                      className="h-16 w-auto object-contain sm:h-20"
-                      loading="lazy"
-                    />
-                    <img
-                      src="/logo/ieeeims.png"
-                      alt="IEEE Indonesia IMS/ITS Joint Chapter"
-                      className="h-16 w-auto object-contain sm:h-20"
-                      loading="lazy"
-                    />
-                  </div>
-                </div>
-
                 <div className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
                   <img
                     src="/logo/apskin.png"

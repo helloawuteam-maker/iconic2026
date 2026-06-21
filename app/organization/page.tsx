@@ -495,7 +495,7 @@ export default function OrganizationPage() {
           </p>
           <h1 className="mt-3 text-3xl font-black tracking-tight">Committee</h1>
           <p className="mt-3 max-w-3xl text-sm font-semibold text-zinc-700">
-            Organizing committee for 2026 ICONIQ.
+            Organizing committee for 2027 ICONIQ.
           </p>
         </div>
 

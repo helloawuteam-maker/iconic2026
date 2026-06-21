@@ -15,17 +15,17 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: {
     default:
-      "2026 IEEE International Conference on Innovation and Quality in Engineering and Technology (2026 ICONIQ)",
-    template: "%s | 2026 ICONIQ",
+      "2027 IEEE International Conference on Innovation and Quality in Engineering and Technology (2027 ICONIQ)",
+    template: "%s | 2027 ICONIQ",
   },
   description:
-    "2026 IEEE International Conference on Innovation and Quality in Engineering and Technology (2026 ICONIQ).",
+    "2027 IEEE International Conference on Innovation and Quality in Engineering and Technology (2027 ICONIQ).",
   metadataBase: new URL("https://example.com"),
   openGraph: {
     title:
-      "2026 IEEE International Conference on Innovation and Quality in Engineering and Technology (2026 ICONIQ)",
+      "2027 IEEE International Conference on Innovation and Quality in Engineering and Technology (2027 ICONIQ)",
     description:
-      "2026 IEEE International Conference on Innovation and Quality in Engineering and Technology (2026 ICONIQ).",
+      "2027 IEEE International Conference on Innovation and Quality in Engineering and Technology (2027 ICONIQ).",
     type: "website",
   },
   robots: {

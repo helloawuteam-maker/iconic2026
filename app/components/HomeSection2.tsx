@@ -13,7 +13,7 @@ export default function HomeSection2() {
           <div className="mx-auto">
             <Image
               src="/logo/iconiq.png"
-              alt="ICONIQ 2026"
+              alt="ICONIQ 2027"
               width={1011}
               height={502}
               priority
@@ -29,7 +29,7 @@ export default function HomeSection2() {
               intelligent services—innovation must be paired with quality, safety, and trust to deliver real impact.
             </p>
             <p>
-              2026 ICONIQ invites researchers, practitioners, and interdisciplinary scholars to explore how human behavior and
+              2027 ICONIQ invites researchers, practitioners, and interdisciplinary scholars to explore how human behavior and
               social dynamics influence the design, adoption, and governance of technology—from requirements and verification,
               to human-centered evaluation, responsible engineering, and continuous improvement.
             </p>
