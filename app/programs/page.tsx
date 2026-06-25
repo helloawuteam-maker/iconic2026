@@ -20,7 +20,7 @@ export default function ProgramsPage() {
         <section id="tracks" className="mt-8 rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
           <h2 className="text-xl font-black">Tracks</h2>
           <p className="mt-3 text-sm text-zinc-700">
-            Explore the technical tracks and topics for 2026 IEEE International Conference on Innovation and Quality in
+            Explore the technical tracks and topics for 2026 International Conference on Innovation and Quality in
             Engineering and Technology (2026 ICONIQ).
           </p>
 

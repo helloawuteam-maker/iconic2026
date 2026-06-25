@@ -5,7 +5,7 @@ export default function SiteFooter() {
         <div>
           <div className="text-base font-black">2026 ICONIQ</div>
           <p className="mt-2 text-sm text-white/85">
-            2026 IEEE International Conference on Innovation and Quality in Engineering and Technology
+            2026 International Conference on Innovation and Quality in Engineering and Technology
           </p>
           <p className="mt-3 text-xs text-white/80">Bali, Indonesia · August 28 – 30, 2026</p>
         </div>

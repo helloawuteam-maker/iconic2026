@@ -17,11 +17,10 @@ type Speaker = {
 };
 
 const importantDates: DateRow[] = [
-  { label: "Deadline of Paper Submission", value: "April 6, 2026" },
-  { label: "Notification of Paper Acceptance", value: "July 3, 2026" },
-  { label: "Early Bird Registration & Payment", value: "July 17, 2026" },
-  { label: "Deadline of Registration & Payment", value: "July 31, 2026" },
-  { label: "Final Manuscript (Camera Ready)", value: "August 7, 2026" },
+  { label: "Registration and Abstract", value: "August 1, 2026" },
+  { label: "Notification of Acceptance", value: "August 18, 2026" },
+  { label: "Deadline of Payment", value: "August 21, 2026" },
+  { label: "Full Paper (Camera Ready)", value: "September 16, 2026" },
   { label: "Main Conference", value: "August 28 – 30, 2026" },
 ];
 
@@ -37,12 +36,6 @@ const keynoteSpeakers: Speaker[] = [
     role: "National Taiwan University of Science and Technology",
     note: "(To be confirmed)",
     imageSrc: "/speakers/jing-ming.jpg",
-  },
-  {
-    name: "Prof., Drs., Nur Iriawan, M.IKom., Ph.D.",
-    role: "Institut Teknologi Sepuluh November - Indonesia",
-    note: "(To be confirmed)",
-    imageSrc: "/speakers/nur-iriawan.jpg",
   },
 ];
 
@@ -167,7 +160,7 @@ export default function Home() {
                 </h2>
 
                 <h1 className="mt-5 text-4xl font-black uppercase leading-[0.92] tracking-wide drop-shadow md:text-6xl">
-                  2026 IEEE
+                  2026
                   <br />
                   International Conference
                   <br />
@@ -191,7 +184,7 @@ export default function Home() {
                 <div className="mt-5 flex flex-wrap justify-center gap-3">
                   <a
                     className="inline-flex items-center justify-center rounded-xl bg-[#633193] px-10 py-3 text-sm font-black text-white shadow-[0_14px_34px_rgba(99,49,147,0.35)] hover:bg-[#5a2c86]"
-                    href="https://edas.info/N34945"
+                    href="https://erscience.com/index.php/iconiq"
                   >
                     Register Now Hybrid Conference
                   </a>
@@ -260,7 +253,7 @@ export default function Home() {
         <section className="relative overflow-hidden py-16 text-white">
           <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(43,50,126,0.86)_0%,rgba(14,165,164,0.76)_100%),radial-gradient(1000px_600px_at_60%_50%,rgba(17,17,36,0.55)_0%,rgba(17,17,36,0)_70%),linear-gradient(135deg,#3b1f58_0%,#2b327e_45%,#111124_100%)]" />
           <div className="relative mx-auto w-full max-w-6xl px-5">
-            <p className="text-sm font-black opacity-95">2026 IEEE International Conference (2026 ICONIQ)</p>
+            <p className="text-sm font-black opacity-95">2026 International Conference (2026 ICONIQ)</p>
             <h2 className="mt-2 text-3xl font-black tracking-tight md:text-4xl">Innovation and Quality in Engineering and Technology:</h2>
             <p className="mt-3 max-w-4xl text-lg font-semibold text-white/95 md:text-xl">
               Bringing Human Behavior and Social Dynamics into the Technological Ecosystem
@@ -310,9 +303,9 @@ export default function Home() {
               <h2 className="text-3xl font-black tracking-tight">Keynote Speakers</h2>
             </div>
 
-            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-8 flex flex-wrap justify-center gap-4">
               {keynoteSpeakers.map((s) => (
-                <div key={s.name} className="rounded-2xl border border-black/5 bg-white p-4 shadow-sm">
+                <div key={s.name} className="w-full max-w-sm rounded-2xl border border-black/5 bg-white p-4 shadow-sm">
                   <div className="flex h-64 w-full items-center justify-center overflow-hidden rounded-2xl border border-black/5 bg-[radial-gradient(400px_260px_at_30%_20%,rgba(99,49,147,0.25)_0%,rgba(99,49,147,0)_60%),radial-gradient(380px_240px_at_80%_20%,rgba(14,165,164,0.22)_0%,rgba(14,165,164,0)_60%),linear-gradient(135deg,rgba(17,17,36,0.10)_0%,rgba(17,17,36,0.04)_100%)] sm:h-72">
                     {s.imageSrc ? (
                       <img src={s.imageSrc} alt={s.name} className="max-h-full w-auto max-w-full object-contain" loading="lazy" />
@@ -330,32 +323,27 @@ export default function Home() {
         <section id="registrationfee" className="py-16">
           <div className="mx-auto w-full max-w-6xl px-5">
             <h2 className="text-3xl font-black tracking-tight">Registration Fee</h2>
-            <p className="mt-2 text-sm font-semibold text-zinc-600">*Eligible Members: IEEE / APSKIN Members</p>
 
             <div className="mt-5 overflow-auto rounded-2xl border border-black/5 bg-white shadow-sm" tabIndex={0}>
-              <table className="min-w-[980px] w-full border-separate border-spacing-0">
+              <table className="w-full border-separate border-spacing-0">
                 <thead>
                   <tr>
-                    <th colSpan={2} className="bg-[#2b327e] px-4 py-3"></th>
-                    <th colSpan={2} className="bg-[#2b327e] px-4 py-3 text-center text-sm font-black text-white">
-                      Domestic
-                    </th>
-                    <th colSpan={2} className="bg-[#2b327e] px-4 py-3 text-center text-sm font-black text-white">
-                      International
-                    </th>
-                  </tr>
-                  <tr>
-                    <th className="bg-[#1f2460] px-4 py-3 text-left text-sm font-black text-white">Category</th>
-                    <th className="bg-[#1f2460] px-4 py-3 text-left text-sm font-black text-white">Type</th>
-                    <th className="bg-[#1f2460] px-4 py-3 text-left text-sm font-black text-white">Author</th>
-                    <th className="bg-[#1f2460] px-4 py-3 text-left text-sm font-black text-white">Participant</th>
-                    <th className="bg-[#1f2460] px-4 py-3 text-left text-sm font-black text-white">Author</th>
-                    <th className="bg-[#1f2460] px-4 py-3 text-left text-sm font-black text-white">Participant</th>
+                    <th className="bg-[#2b327e] px-4 py-3 text-left text-sm font-black text-white">Category</th>
+                    <th className="bg-[#2b327e] px-4 py-3 text-center text-sm font-black text-white">Online</th>
+                    <th className="bg-[#2b327e] px-4 py-3 text-center text-sm font-black text-white">Offline</th>
                   </tr>
                 </thead>
                 <tbody className="text-sm font-semibold text-zinc-800">
-                  <FeeRowGroup category="Student" rows={studentRows} />
-                  <FeeRowGroup category="Non-Student" rows={nonStudentRows} />
+                  <tr>
+                    <td className="border-b border-black/5 px-4 py-3 font-black text-zinc-900">International Presenter</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center">70 USD</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center">35 USD</td>
+                  </tr>
+                  <tr className="bg-black/[0.015]">
+                    <td className="px-4 py-3 font-black text-zinc-900">Indonesian Presenter</td>
+                    <td className="px-4 py-3 text-center">IDR 500,000</td>
+                    <td className="px-4 py-3 text-center">IDR 1,000,000</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
@@ -375,28 +363,20 @@ export default function Home() {
                   </div>
                   <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-sm">
                     <span className="font-bold text-zinc-600">Account Name</span>
-                    <strong className="font-black">Mrs. Meisya Vira Amelia</strong>
+                    <strong className="font-black">ASOSIASI PENELITI SAINS</strong>
                   </div>
                   <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-sm">
                     <span className="font-bold text-zinc-600">Account Number</span>
-                    <strong className="font-black">6750928704</strong>
-                  </div>
-                  <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-sm">
-                    <span className="font-bold text-zinc-600">Swift code</span>
-                    <strong className="font-black">CENAIDJAXXX</strong>
+                    <strong className="font-black">8223653888</strong>
                   </div>
                 </div>
 
                 <p className="mt-4 text-sm text-zinc-700">
                   Address of Bank:
                   <br />
-                  BCA KCP Rungkut Mapan
+                  Jl. Kendangsari Industri 2, Kendangsari, Kec. Tenggilis Mejoyo, Kota Surabaya, Jawa Timur
                   <br />
-                  Raya Rungkut Mapan / Yakaya, Jl. Rungkut Mapan Utara No.09 Blok BA 08, Surabaya, Jawa Timur 60293
-                </p>
-
-                <p className="mt-3 text-sm font-bold text-zinc-800">
-                  For participants from outside Indonesia who wish to pay by credit card, please contact us.
+                  Surabaya, Jawa Timur, Indonesia 60292
                 </p>
 
                 <p className="mt-3 text-sm text-zinc-700">
@@ -404,7 +384,7 @@ export default function Home() {
                   <br />
                   – The payment receipt
                   <br />
-                  – Proof of IEEE / APSKIN membership (optional)
+                  – Proof of APSKIN membership (optional)
                   <br />
                   – Student ID card (optional)
                 </p>
@@ -431,7 +411,7 @@ export default function Home() {
             <div className="grid gap-10 md:grid-cols-2">
               <div className="text-center md:text-left">
                 <h3 className="text-xl font-black text-[#633193]">ICONIQ 2026 Paper Template (Ms. Word Only)</h3>
-                <p className="mt-2 text-sm font-semibold text-zinc-600">Please refer to IEEE template Manuscripts</p>
+                <p className="mt-2 text-sm font-semibold text-zinc-600">Please refer to the paper template Manuscripts</p>
                 <div className="mt-6 flex justify-center md:justify-start">
                   <a
                     className="inline-flex items-center justify-center rounded-2xl bg-[#633193] px-8 py-3 text-sm font-black text-white shadow-sm hover:bg-[#5a2c86]"
@@ -452,7 +432,7 @@ export default function Home() {
                 <div className="mt-6 flex justify-center md:justify-start">
                   <a
                     className="inline-flex items-center justify-center rounded-xl bg-[#2b327e] px-8 py-3 text-sm font-black text-white shadow-sm hover:bg-[#1f2460]"
-                    href="https://edas.info/N34945"
+                    href="https://erscience.com/index.php/iconiq"
                   >
                     Submit Your Paper
                   </a>
@@ -467,23 +447,6 @@ export default function Home() {
             <div className="text-center">
               <h3 className="text-xl font-black text-[#2b327e]">Organized by</h3>
               <div className="mt-8 flex flex-wrap items-center justify-center gap-10">
-                <div className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
-                  <div className="flex flex-wrap items-center justify-center gap-6">
-                    <img
-                      src="/logo/ieee.jpeg"
-                      alt="IEEE Indonesia Section"
-                      className="h-16 w-auto object-contain sm:h-20"
-                      loading="lazy"
-                    />
-                    <img
-                      src="/logo/ieeeims.png"
-                      alt="IEEE Indonesia IMS/ITS Joint Chapter"
-                      className="h-16 w-auto object-contain sm:h-20"
-                      loading="lazy"
-                    />
-                  </div>
-                </div>
-
                 <div className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
                   <img
                     src="/logo/apskin.png"
@@ -529,115 +492,3 @@ function TrackCard({ badge, title, description, href }: TrackCardProps) {
   );
 }
 
-type FeeRow = {
-  type: string;
-  domesticAuthor: string;
-  domesticParticipant: string;
-  internationalAuthor: string;
-  internationalParticipant: string;
-  spanParticipant?: number;
-  spanIntlParticipant?: number;
-};
-
-const studentRows: FeeRow[] = [
-  {
-    type: "Early Bird Member",
-    domesticAuthor: "IDR 2,500,000",
-    domesticParticipant: "IDR 750,000",
-    internationalAuthor: "USD 250",
-    internationalParticipant: "USD 75",
-    spanParticipant: 3,
-    spanIntlParticipant: 3,
-  },
-  {
-    type: "Early Bird Non Member",
-    domesticAuthor: "IDR 2,750,000",
-    domesticParticipant: "",
-    internationalAuthor: "USD 275",
-    internationalParticipant: "",
-  },
-  {
-    type: "Regular Member",
-    domesticAuthor: "IDR 2,750,000",
-    domesticParticipant: "",
-    internationalAuthor: "USD 275",
-    internationalParticipant: "",
-  },
-  {
-    type: "Regular Non Member",
-    domesticAuthor: "IDR 3,000,000",
-    domesticParticipant: "-*",
-    internationalAuthor: "USD 300",
-    internationalParticipant: "-*",
-  },
-];
-
-const nonStudentRows: FeeRow[] = [
-  {
-    type: "Early Bird Member",
-    domesticAuthor: "IDR 3,000,000",
-    domesticParticipant: "IDR 1,000,000",
-    internationalAuthor: "USD 300",
-    internationalParticipant: "USD 100",
-    spanParticipant: 3,
-    spanIntlParticipant: 3,
-  },
-  {
-    type: "Early Bird Non Member",
-    domesticAuthor: "IDR 3,250,000",
-    domesticParticipant: "",
-    internationalAuthor: "USD 325",
-    internationalParticipant: "",
-  },
-  {
-    type: "Regular Member",
-    domesticAuthor: "IDR 3,250,000",
-    domesticParticipant: "",
-    internationalAuthor: "USD 325",
-    internationalParticipant: "",
-  },
-  {
-    type: "Regular Non Member",
-    domesticAuthor: "IDR 3,500,000",
-    domesticParticipant: "-*",
-    internationalAuthor: "USD 350",
-    internationalParticipant: "-*",
-  },
-];
-
-function FeeRowGroup({ category, rows }: { category: string; rows: FeeRow[] }) {
-  return (
-    <>
-      {rows.map((r, idx) => (
-        <tr key={`${category}-${r.type}`} className={idx % 2 === 1 ? "bg-black/[0.015]" : ""}>
-          {idx === 0 ? (
-            <td rowSpan={rows.length} className="bg-[#633193] px-4 py-3 align-top text-sm font-black text-white">
-              {category}
-            </td>
-          ) : null}
-
-          <td className="border-b border-black/5 px-4 py-3">{r.type}</td>
-          <td className="border-b border-black/5 px-4 py-3">{r.domesticAuthor}</td>
-
-          {typeof r.spanParticipant === "number" ? (
-            <td rowSpan={r.spanParticipant} className="border-b border-black/5 px-4 py-3">
-              {r.domesticParticipant}
-            </td>
-          ) : r.domesticParticipant ? (
-            <td className="border-b border-black/5 px-4 py-3 text-zinc-500">{r.domesticParticipant}</td>
-          ) : null}
-
-          <td className="border-b border-black/5 px-4 py-3">{r.internationalAuthor}</td>
-
-          {typeof r.spanIntlParticipant === "number" ? (
-            <td rowSpan={r.spanIntlParticipant} className="border-b border-black/5 px-4 py-3">
-              {r.internationalParticipant}
-            </td>
-          ) : r.internationalParticipant ? (
-            <td className="border-b border-black/5 px-4 py-3 text-zinc-500">{r.internationalParticipant}</td>
-          ) : null}
-        </tr>
-      ))}
-    </>
-  );
-}

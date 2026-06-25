@@ -45,24 +45,20 @@ export default function AuthorInformationPage() {
           <h2 className="text-xl font-black">Important Dates</h2>
           <dl className="mt-4 grid gap-3 text-sm">
             <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
-              <dt className="font-black text-zinc-900">Deadline of Paper Submission</dt>
-              <dd className="font-semibold text-zinc-700">April 6, 2026</dd>
+              <dt className="font-black text-zinc-900">Registration and Abstract</dt>
+              <dd className="font-semibold text-zinc-700">August 1, 2026</dd>
             </div>
             <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
-              <dt className="font-black text-zinc-900">Notification of Paper Acceptance</dt>
-              <dd className="font-semibold text-zinc-700">July 3, 2026</dd>
+              <dt className="font-black text-zinc-900">Notification of Acceptance</dt>
+              <dd className="font-semibold text-zinc-700">August 18, 2026</dd>
             </div>
             <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
-              <dt className="font-black text-zinc-900">Early Bird Registration &amp; Payment</dt>
-              <dd className="font-semibold text-zinc-700">July 17, 2026</dd>
+              <dt className="font-black text-zinc-900">Deadline of Payment</dt>
+              <dd className="font-semibold text-zinc-700">August 21, 2026</dd>
             </div>
             <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
-              <dt className="font-black text-zinc-900">Deadline of Registration &amp; Payment</dt>
-              <dd className="font-semibold text-zinc-700">July 31, 2026</dd>
-            </div>
-            <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
-              <dt className="font-black text-zinc-900">Final Manuscript (Camera Ready)</dt>
-              <dd className="font-semibold text-zinc-700">August 7, 2026</dd>
+              <dt className="font-black text-zinc-900">Full Paper (Camera Ready)</dt>
+              <dd className="font-semibold text-zinc-700">September 16, 2026</dd>
             </div>
             <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
               <dt className="font-black text-zinc-900">Main Conference</dt>
@@ -89,7 +85,7 @@ export default function AuthorInformationPage() {
         <section id="authorguidelines" className="mt-4 rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
           <h2 className="text-xl font-black">Author Guidelines</h2>
           <p className="mt-3 text-sm text-zinc-700">
-            Authors must prepare manuscripts using the IEEE conference paper template and follow the formatting requirements
+            Authors must prepare manuscripts using the conference paper template and follow the formatting requirements
             strictly (paper size, margins, fonts, and reference style). Submissions should be written in clear English and present
             sufficient technical detail to support reproducibility.
           </p>
@@ -124,14 +120,13 @@ export default function AuthorInformationPage() {
 
           <h3 className="mt-5 text-sm font-black text-zinc-900">First Paper Submission</h3>
           <p className="mt-2 text-sm text-zinc-700">
-            All papers submitted to the ICONIQ 2026 must be written in English and formatted in the standard IEEE Xplore
-            double-column format (A4 size). Please use the Microsoft Word template only.
+            All papers submitted to the ICONIQ 2026 must be written in English and formatted in the standard double-column format (A4 size). Please use the Microsoft Word template only.
           </p>
           <ul className="mt-4 grid gap-2 pl-5 text-sm text-zinc-700">
             <li className="list-disc">
               All papers must be submitted electronically through the EDAS Conference papers submission system at{" "}
-              <a className="font-semibold text-[#2b327e] underline" href="https://iconiq2026.edas.info/" target="_blank" rel="noopener">
-                https://iconiq2026.edas.info/
+              <a className="font-semibold text-[#2b327e] underline" href="https://erscience.com/index.php/iconiq" target="_blank" rel="noopener">
+                https://erscience.com/index.php/iconiq
               </a>
               . It is suggested that you use Firefox or Chrome instead of Internet Explorer.
             </li>
@@ -148,7 +143,7 @@ export default function AuthorInformationPage() {
             <li className="list-disc">
               Upon acceptance, at least one of the authors listed in the paper must attend the conference and present the paper
               according to the conference schedule. In the event that the presenter is unable to attend the conference for any
-              reason, the accepted paper will not be considered for submission of the proceeding to the IEEE Xplore.
+              reason, the accepted paper will not be considered for submission to the conference proceedings.
             </li>
             <li className="list-disc">
               At least one of the authors listed on the paper must register for ICONIQ 2026 to upload the final manuscript.
@@ -158,7 +153,7 @@ export default function AuthorInformationPage() {
               fee.
             </li>
             <li className="list-disc">
-              <strong className="font-black text-zinc-900">NOTE:</strong> Papers that are accepted and presented at ICONIQ 2026  will be submitted for publication in IEEE Xplore. IEEE reserves the right to exclude a paper from distributions after the conference, including the IEEE Xplore Digital Library, if the paper is not presented by the author at the conference and does not meet the IEEE criteria.
+              <strong className="font-black text-zinc-900">NOTE:</strong> Papers that are accepted and presented at ICONIQ 2026 will be submitted for publication in the conference proceedings. Papers not presented by the author at the conference may be excluded from publication.
             </li>
           </ul>
         </section>
@@ -172,7 +167,7 @@ export default function AuthorInformationPage() {
           <div className="mt-5 flex flex-wrap gap-3">
             <a
               className="inline-flex items-center justify-center rounded-xl bg-[#633193] px-6 py-3 text-sm font-black text-white shadow-[0_14px_34px_rgba(99,49,147,0.25)] hover:bg-[#5a2c86]"
-              href="https://edas.info/N34945"
+              href="https://erscience.com/index.php/iconiq"
               target="_blank"
               rel="noopener"
             >
@@ -184,7 +179,7 @@ export default function AuthorInformationPage() {
               target="_blank"
               rel="noopener"
             >
-              Download IEEE Template
+              Download Template
             </a>
           </div>
         </section>
