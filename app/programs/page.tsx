@@ -11,17 +11,17 @@ export default function ProgramsPage() {
           <p className="text-xs font-black uppercase tracking-[0.18em] text-zinc-800/80">
             Programs
           </p>
-          <h1 className="mt-3 text-3xl font-black tracking-tight">2027 ICONIQ Programs</h1>
+          <h1 className="mt-3 text-3xl font-black tracking-tight">2026 ICONIQ Programs</h1>
           <p className="mt-3 max-w-3xl text-sm font-semibold text-zinc-700">
-            This page contains the technical tracks and topics for 2027 ICONIQ.
+            This page contains the technical tracks and topics for 2026 ICONIQ.
           </p>
         </div>
 
         <section id="tracks" className="mt-8 rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
           <h2 className="text-xl font-black">Tracks</h2>
           <p className="mt-3 text-sm text-zinc-700">
-            Explore the technical tracks and topics for 2027 IEEE International Conference on Innovation and Quality in
-            Engineering and Technology (2027 ICONIQ).
+            Explore the technical tracks and topics for 2026 IEEE International Conference on Innovation and Quality in
+            Engineering and Technology (2026 ICONIQ).
           </p>
 
           <section id="track-1" className="mt-6 rounded-2xl border border-black/5 bg-white p-5">

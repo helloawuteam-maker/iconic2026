@@ -59,7 +59,7 @@ export default function Header() {
         <a href="#top" className="flex items-center">
           <Image
             src="/logo/iconiq.png"
-            alt="ICONIQ 2027"
+            alt="ICONIQ 2026"
             width={420}
             height={208}
             priority
