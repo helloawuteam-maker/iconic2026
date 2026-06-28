@@ -38,9 +38,7 @@ export default function ContactPage() {
         <section className="mt-4 rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
           <h2 className="text-xl font-black">Venue / Map</h2>
           <p className="mt-3 text-sm text-zinc-700">
-            Hilton Garden Inn Bali Ngurah Rai Airport
-            <br />
-            Jl. Airport Ngurah Rai No.7, Tuban, Kec. Kuta, Kabupaten Badung, Bali 80361
+            Bali
           </p>
           <a
             className="mt-3 inline-block text-sm font-semibold text-[#2b327e] hover:underline"

@@ -21,7 +21,7 @@ const importantDates: DateRow[] = [
   { label: "Notification of Acceptance", value: "August 18, 2026" },
   { label: "Deadline of Payment", value: "August 21, 2026" },
   { label: "Full Paper (Camera Ready)", value: "September 16, 2026" },
-  { label: "Main Conference", value: "August 28 – 30, 2026" },
+  { label: "Main Conference", value: "August 28, 2026" },
 ];
 
 const keynoteSpeakers: Speaker[] = [
@@ -156,7 +156,7 @@ export default function Home() {
             <div className="grid">
               <div className="text-center">
                 <h2 className="text-sm font-black uppercase tracking-[0.18em] text-white/95 md:text-base">
-                  August 28 – 30, 2026 | Bali, Indonesia
+                  August 28, 2026 | Bali
                 </h2>
 
                 <h1 className="mt-5 text-4xl font-black uppercase leading-[0.92] tracking-wide drop-shadow md:text-6xl">
@@ -186,7 +186,7 @@ export default function Home() {
                     className="inline-flex items-center justify-center rounded-xl bg-[#633193] px-10 py-3 text-sm font-black text-white shadow-[0_14px_34px_rgba(99,49,147,0.35)] hover:bg-[#5a2c86]"
                     href="https://erscience.com/index.php/iconiq"
                   >
-                    Register Now Hybrid Conference
+                    Register Now
                   </a>
                 </div>
 
@@ -195,12 +195,12 @@ export default function Home() {
                     <div className="px-5 py-4">
                       <dt className="text-xs font-black uppercase tracking-[0.18em] text-white/90">Venue</dt>
                       <dd className="mt-2 text-sm font-semibold text-white">
-                        Hilton Garden Inn Bali Ngurah Rai Airport
+                        Bali
                       </dd>
                     </div>
                     <div className="px-5 py-4">
                       <dt className="text-xs font-black uppercase tracking-[0.18em] text-white/90">Event Format</dt>
-                      <dd className="mt-2 text-sm font-semibold text-white">Hybrid (In-person and Virtual)</dd>
+                      <dd className="mt-2 text-sm font-semibold text-white">Virtual</dd>
                     </div>
                     <div className="px-5 py-4">
                       <dt className="text-xs font-black uppercase tracking-[0.18em] text-white/90">Call / Whatsapp</dt>
@@ -259,9 +259,9 @@ export default function Home() {
               Bringing Human Behavior and Social Dynamics into the Technological Ecosystem
             </p>
             <p className="mt-4 text-sm font-black opacity-95">
-              Bali, Indonesia
+              Bali
               <br />
-              August 28 – 30, 2026
+              August 28, 2026
             </p>
           </div>
         </section>
