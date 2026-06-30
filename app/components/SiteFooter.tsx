@@ -24,9 +24,6 @@ export default function SiteFooter() {
             <a className="hover:underline" href="mailto:iconiq@apskin.org">iconiq@apskin.org</a>
             <a className="hover:underline" href="tel:+6289524180486">Chusna Maulida +62 895-2418-0486</a>
             <a className="hover:underline" href="tel:+62895335857578">Aviolla +62 895-3358-57578</a>
-            <a className="hover:underline" href="https://maps.app.goo.gl/mvXvE4crh5fQSEgRA" target="_blank" rel="noopener">
-              Venue / Map
-            </a>
           </div>
         </div>
       </div>

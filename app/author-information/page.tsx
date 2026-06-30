@@ -91,12 +91,14 @@ export default function AuthorInformationPage() {
           </p>
           <h3 className="mt-5 text-sm font-black text-zinc-900">Guidelines</h3>
           <p className="mt-2 text-sm text-zinc-700">
-            All papers must be submitted electronically through the EDAS Conference papers submission system. To ensure high
-            standards, all contributed papers will be reviewed by three independent reviewers. Reviews are double blind. Based on
+            All papers must be submitted electronically through the submission system at{" "}
+            <a className="font-semibold text-[#2b327e] underline" href="https://erscience.com/index.php/iconiq" target="_blank" rel="noopener">
+              https://erscience.com/index.php/iconiq
+            </a>
+            . To ensure high standards, all contributed papers will be reviewed by three independent reviewers. Reviews are double blind. Based on
             the reviewers’ comments, the Coordinating Scientist will take a decision on the acceptance of the papers. Upon
             acceptance of the Full Paper, the author will be notified via email, and the author shall incorporate the reviewers’
-            suggested corrections to the manuscript and submit the revised manuscript as Camera Ready Submission to the EDAS
-            Conference papers submission system.
+            suggested corrections to the manuscript and submit the revised manuscript as Camera Ready Submission through the same submission system.
           </p>
 
           <ul className="mt-4 grid gap-2 pl-5 text-sm text-zinc-700">
@@ -124,7 +126,7 @@ export default function AuthorInformationPage() {
           </p>
           <ul className="mt-4 grid gap-2 pl-5 text-sm text-zinc-700">
             <li className="list-disc">
-              All papers must be submitted electronically through the EDAS Conference papers submission system at{" "}
+              All papers must be submitted electronically at{" "}
               <a className="font-semibold text-[#2b327e] underline" href="https://erscience.com/index.php/iconiq" target="_blank" rel="noopener">
                 https://erscience.com/index.php/iconiq
               </a>
@@ -161,7 +163,7 @@ export default function AuthorInformationPage() {
         <section id="submission" className="mt-4 rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
           <h2 className="text-xl font-black">Submission</h2>
           <p className="mt-3 text-sm text-zinc-700">
-            Add the submission link(s) (e.g., EDAS) and step-by-step instructions.
+            Submit your paper through the link below.
           </p>
 
           <div className="mt-5 flex flex-wrap gap-3">
@@ -175,7 +177,7 @@ export default function AuthorInformationPage() {
             </a>
             <a
               className="inline-flex items-center justify-center rounded-xl border border-[#633193]/25 bg-white px-6 py-3 text-sm font-black text-[#633193] hover:bg-[#633193]/10"
-              href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-template-a4.docx"
+              href="https://docs.google.com/document/d/1teY5RQxZFEVtLHmTnxPCQroBIbnhEpDT/edit?usp=sharing&ouid=102284237185700741961&rtpof=true&sd=true"
               target="_blank"
               rel="noopener"
             >

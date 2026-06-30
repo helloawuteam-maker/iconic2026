@@ -36,18 +36,8 @@ export default function ContactPage() {
         </section>
 
         <section className="mt-4 rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
-          <h2 className="text-xl font-black">Venue / Map</h2>
-          <p className="mt-3 text-sm text-zinc-700">
-            Bali
-          </p>
-          <a
-            className="mt-3 inline-block text-sm font-semibold text-[#2b327e] hover:underline"
-            href="https://maps.app.goo.gl/mvXvE4crh5fQSEgRA"
-            target="_blank"
-            rel="noopener"
-          >
-            https://maps.app.goo.gl/mvXvE4crh5fQSEgRA
-          </a>
+          <h2 className="text-xl font-black">Venue</h2>
+          <p className="mt-3 text-sm text-zinc-700">Bali</p>
         </section>
       </main>
 

@@ -415,7 +415,7 @@ export default function Home() {
                 <div className="mt-6 flex justify-center md:justify-start">
                   <a
                     className="inline-flex items-center justify-center rounded-2xl bg-[#633193] px-8 py-3 text-sm font-black text-white shadow-sm hover:bg-[#5a2c86]"
-                    href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-template-a4.docx"
+                    href="https://docs.google.com/document/d/1teY5RQxZFEVtLHmTnxPCQroBIbnhEpDT/edit?usp=sharing&ouid=102284237185700741961&rtpof=true&sd=true"
                     target="_blank"
                     rel="noopener"
                   >
