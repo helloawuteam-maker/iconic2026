@@ -340,8 +340,8 @@ export default function Home() {
                 <tbody className="text-sm font-semibold text-zinc-800">
                   <tr>
                     <td className="border-b border-black/5 px-4 py-3 font-black text-zinc-900">International Presenter</td>
-                    <td className="border-b border-black/5 px-4 py-3 text-center">70 USD</td>
                     <td className="border-b border-black/5 px-4 py-3 text-center">35 USD</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center">70 USD</td>
                   </tr>
                   <tr className="bg-black/[0.015]">
                     <td className="border-b border-black/5 px-4 py-3 font-black text-zinc-900">Indonesian Presenter</td>
