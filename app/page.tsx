@@ -12,6 +12,7 @@ type DateRow = {
 type Speaker = {
   name: string;
   role: string;
+  expertise?: string;
   note?: string;
   imageSrc?: string;
 };
@@ -28,13 +29,13 @@ const keynoteSpeakers: Speaker[] = [
   {
     name: "Prof. Nobuo Funabiki",
     role: "Okayama University - Japan",
-    note: "(To be confirmed)",
+    expertise: "Expert in Signal Processing, Machine Intelligence, and Advanced Communication Systems",
     imageSrc: "/speakers/nobuo-funabiki.jpg",
   },
   {
     name: "Prof. Jing-Ming Guo",
     role: "National Taiwan University of Science and Technology",
-    note: "(To be confirmed)",
+    expertise: "Expert in Robotics, AI, and Intelligent System Applications",
     imageSrc: "/speakers/jing-ming.jpg",
   },
 ];
@@ -156,7 +157,7 @@ export default function Home() {
             <div className="grid">
               <div className="text-center">
                 <h2 className="text-sm font-black uppercase tracking-[0.18em] text-white/95 md:text-base">
-                  August 28, 2026 | Bali
+                  August 28, 2026 | Four Star by Trans Hotel, Bali Indonesia
                 </h2>
 
                 <h1 className="mt-5 text-4xl font-black uppercase leading-[0.92] tracking-wide drop-shadow md:text-6xl">
@@ -195,7 +196,7 @@ export default function Home() {
                     <div className="px-5 py-4">
                       <dt className="text-xs font-black uppercase tracking-[0.18em] text-white/90">Venue</dt>
                       <dd className="mt-2 text-sm font-semibold text-white">
-                        Bali
+                        Four Star by Trans Hotel, Bali Indonesia
                       </dd>
                     </div>
                     <div className="px-5 py-4">
@@ -259,7 +260,7 @@ export default function Home() {
               Bringing Human Behavior and Social Dynamics into the Technological Ecosystem
             </p>
             <p className="mt-4 text-sm font-black opacity-95">
-              Bali
+              Four Star by Trans Hotel, Bali Indonesia
               <br />
               August 28, 2026
             </p>
@@ -313,6 +314,9 @@ export default function Home() {
                   </div>
                   <h3 className="mt-3 text-sm font-black leading-snug">{s.name}</h3>
                   <p className="mt-2 text-xs font-semibold text-zinc-700">{s.role}</p>
+                  {s.expertise ? (
+                    <p className="mt-3 rounded-xl bg-[#633193]/8 px-3 py-2 text-xs font-semibold text-[#633193]">{s.expertise}</p>
+                  ) : null}
                   {s.note ? <p className="mt-3 text-xs text-zinc-600">{s.note}</p> : null}
                 </div>
               ))}
@@ -340,9 +344,19 @@ export default function Home() {
                     <td className="border-b border-black/5 px-4 py-3 text-center">35 USD</td>
                   </tr>
                   <tr className="bg-black/[0.015]">
-                    <td className="px-4 py-3 font-black text-zinc-900">Indonesian Presenter</td>
-                    <td className="px-4 py-3 text-center">IDR 500,000</td>
-                    <td className="px-4 py-3 text-center">IDR 1,000,000</td>
+                    <td className="border-b border-black/5 px-4 py-3 font-black text-zinc-900">Indonesian Presenter</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center">IDR 500,000</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center">IDR 1,000,000</td>
+                  </tr>
+                  <tr>
+                    <td className="border-b border-black/5 px-4 py-3 font-black text-zinc-900">International Participant</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center">10 USD</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center">35 USD</td>
+                  </tr>
+                  <tr className="bg-black/[0.015]">
+                    <td className="px-4 py-3 font-black text-zinc-900">Indonesian Participant</td>
+                    <td className="px-4 py-3 text-center">IDR 100,000</td>
+                    <td className="px-4 py-3 text-center">IDR 600,000</td>
                   </tr>
                 </tbody>
               </table>

@@ -29,7 +29,7 @@ export default function ContactPage() {
                 Chusna Maulida +62 895-2418-0486
               </a>
               <a className="font-semibold text-[#2b327e] hover:underline" href="tel:+62895335857578">
-                Aviolla +62 895-3358-57578
+                Sasa +62 895-3358-57578
               </a>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default function ContactPage() {
 
         <section className="mt-4 rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
           <h2 className="text-xl font-black">Venue</h2>
-          <p className="mt-3 text-sm text-zinc-700">Bali</p>
+          <p className="mt-3 text-sm text-zinc-700">Four Star by Trans Hotel, Bali Indonesia</p>
         </section>
       </main>
 
