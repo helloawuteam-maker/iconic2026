@@ -131,6 +131,23 @@ const homeTracks = [
     ],
     gradientClassName: "bg-gradient-to-br from-[#1d4ed8] via-[#2563eb] to-[#1e3a8a]",
   },
+  {
+    id: "track-6",
+    label: "T6",
+    title: "Multidisciplinary Sciences",
+    topics: [
+      "Applied Chemistry and Chemical Engineering",
+      "Physics and Applied Physics",
+      "Mathematics, Statistics, and Modeling",
+      "Biological Sciences and Biotechnology",
+      "Environmental and Sustainability Science",
+      "Materials Science and Nanotechnology",
+      "Earth and Atmospheric Sciences",
+      "Biomedical Engineering and Health Sciences",
+      "Interdisciplinary Systems and Innovation",
+    ],
+    gradientClassName: "bg-gradient-to-br from-[#78350f] via-[#92400e] to-[#3b1205]",
+  },
 ] as const;
 
 export default function Home() {

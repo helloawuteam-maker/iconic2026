@@ -34,6 +34,7 @@ export default function AuthorInformationPage() {
             <li className="list-disc">Communication, Networking, and Broadcasting</li>
             <li className="list-disc">Information System</li>
             <li className="list-disc">Power, Energy, and Industry Applications</li>
+            <li className="list-disc">Multidisciplinary Sciences (Chemistry, Physics, Biology, Environmental Science, and more)</li>
           </ul>
           <p className="mt-3 text-sm text-zinc-700">
             Submitted papers must be original, not previously published, and not under review elsewhere. All submissions will be
