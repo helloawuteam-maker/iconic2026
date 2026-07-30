@@ -405,7 +405,7 @@ export default function Home() {
 
                 <a
                   className="mt-5 inline-flex items-center justify-center rounded-xl bg-gradient-to-br from-[#633193] via-[#2b327e] to-[#0ea5a4] px-5 py-3 text-sm font-black text-white shadow-sm"
-                  href="#"
+                  href="https://intip.in/PaymentICONIQ2026"
                   target="_blank"
                   rel="noopener"
                 >
