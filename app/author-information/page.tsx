@@ -46,7 +46,7 @@ export default function AuthorInformationPage() {
           <dl className="mt-4 grid gap-3 text-sm">
             <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
               <dt className="font-black text-zinc-900">Registration and Abstract</dt>
-              <dd className="font-semibold text-zinc-700">August 1, 2026</dd>
+              <dd className="font-semibold text-zinc-700">August 15, 2026</dd>
             </div>
             <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
               <dt className="font-black text-zinc-900">Notification of Acceptance</dt>
