@@ -18,9 +18,9 @@ type Speaker = {
 };
 
 const importantDates: DateRow[] = [
-  { label: "Registration and Abstract", value: "August 15, 2026" },
-  { label: "Notification of Acceptance", value: "August 18, 2026" },
-  { label: "Deadline of Payment", value: "August 21, 2026" },
+  { label: "Registration and Abstract", value: "August 18, 2026" },
+  { label: "Notification of Acceptance", value: "August 20, 2026" },
+  { label: "Deadline of Payment", value: "August 23, 2026" },
   { label: "Full Paper (Camera Ready)", value: "September 16, 2026" },
   { label: "Main Conference", value: "August 28, 2026" },
 ];
