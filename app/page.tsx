@@ -477,16 +477,23 @@ export default function Home() {
           <div className="mx-auto w-full max-w-6xl px-5">
             <div className="text-center">
               <h3 className="text-xl font-black text-[#2b327e]">Organized by</h3>
-              <div className="mt-8 flex flex-wrap items-center justify-center gap-10">
-                <div className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
-                  <img
-                    src="/logo/apskin.png"
-                    alt="APSKIN"
-                    className="h-16 w-auto object-contain sm:h-20"
-                    loading="lazy"
-                  />
-                </div>
+              <div className="mt-8 flex flex-wrap items-center justify-center gap-6">
+                {[
+                  { src: "/logo/apskin.png", alt: "APSKIN" },
+                  { src: "/logo/uhn.png", alt: "UHN" },
+                  { src: "/logo/ins.png", alt: "INS" },
+                ].map(({ src, alt }) => (
+                  <div key={src} className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
+                    <img
+                      src={src}
+                      alt={alt}
+                      className="h-16 w-auto object-contain sm:h-20"
+                      loading="lazy"
+                    />
+                  </div>
+                ))}
               </div>
+              <p className="mt-4 text-xs font-semibold text-zinc-400 uppercase tracking-widest">Co-Host</p>
             </div>
           </div>
         </section>
