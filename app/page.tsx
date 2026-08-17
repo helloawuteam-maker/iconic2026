@@ -463,7 +463,7 @@ export default function Home() {
                 <div className="mt-6 flex justify-center md:justify-start">
                   <a
                     className="inline-flex items-center justify-center rounded-xl bg-[#2b327e] px-8 py-3 text-sm font-black text-white shadow-sm hover:bg-[#1f2460]"
-                    href="https://erscience.com/index.php/iconiq"
+                    href="https://seminar.apskin.org/index.php/ICONIQ"
                   >
                     Submit Your Paper
                   </a>
@@ -475,16 +475,36 @@ export default function Home() {
 
         <section className="bg-white py-16">
           <div className="mx-auto w-full max-w-6xl px-5">
-            <div className="text-center">
-              <h3 className="text-xl font-black text-[#2b327e]">Organized by</h3>
-              <div className="mt-8 flex flex-wrap items-center justify-center gap-10">
-                <div className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
-                  <img
-                    src="/logo/apskin.png"
-                    alt="APSKIN"
-                    className="h-16 w-auto object-contain sm:h-20"
-                    loading="lazy"
-                  />
+            <div className="grid gap-12 md:grid-cols-2">
+              <div className="text-center">
+                <h3 className="text-xl font-black text-[#2b327e]">Organized by</h3>
+                <div className="mt-8 flex flex-wrap items-center justify-center gap-6">
+                  <div className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
+                    <img
+                      src="/logo/apskin.png"
+                      alt="APSKIN"
+                      className="h-16 w-auto object-contain sm:h-20"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="text-center">
+                <h3 className="text-xl font-black text-[#2b327e]">Co-Host</h3>
+                <div className="mt-8 flex flex-wrap items-center justify-center gap-6">
+                  {[
+                    { src: "/logo/uhn.png", alt: "UHN" },
+                    { src: "/logo/ins.png", alt: "INSTIKI" },
+                  ].map(({ src, alt }) => (
+                    <div key={src} className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
+                      <img
+                        src={src}
+                        alt={alt}
+                        className="h-16 w-auto object-contain sm:h-20"
+                        loading="lazy"
+                      />
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
