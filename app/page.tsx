@@ -18,9 +18,9 @@ type Speaker = {
 };
 
 const importantDates: DateRow[] = [
-  { label: "Registration and Abstract", value: "August 18, 2026" },
-  { label: "Notification of Acceptance", value: "August 20, 2026" },
-  { label: "Deadline of Payment", value: "August 23, 2026" },
+  { label: "Registration and Abstract", value: "August 20, 2026" },
+  { label: "Notification of Acceptance", value: "August 21, 2026" },
+  { label: "Deadline of Payment", value: "August 24, 2026" },
   { label: "Full Paper (Camera Ready)", value: "September 16, 2026" },
   { label: "Main Conference", value: "August 28, 2026" },
 ];
@@ -202,7 +202,7 @@ export default function Home() {
                 <div className="mt-5 flex flex-wrap justify-center gap-3">
                   <a
                     className="inline-flex items-center justify-center rounded-xl bg-[#633193] px-10 py-3 text-sm font-black text-white shadow-[0_14px_34px_rgba(99,49,147,0.35)] hover:bg-[#5a2c86]"
-                    href="https://erscience.com/index.php/iconiq"
+                    href="https://seminar.apskin.org/index.php/ICONIQ"
                   >
                     Register Now
                   </a>
@@ -477,23 +477,16 @@ export default function Home() {
           <div className="mx-auto w-full max-w-6xl px-5">
             <div className="text-center">
               <h3 className="text-xl font-black text-[#2b327e]">Organized by</h3>
-              <div className="mt-8 flex flex-wrap items-center justify-center gap-6">
-                {[
-                  { src: "/logo/apskin.png", alt: "APSKIN" },
-                  { src: "/logo/uhn.png", alt: "UHN" },
-                  { src: "/logo/ins.png", alt: "INS" },
-                ].map(({ src, alt }) => (
-                  <div key={src} className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
-                    <img
-                      src={src}
-                      alt={alt}
-                      className="h-16 w-auto object-contain sm:h-20"
-                      loading="lazy"
-                    />
-                  </div>
-                ))}
+              <div className="mt-8 flex flex-wrap items-center justify-center gap-10">
+                <div className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
+                  <img
+                    src="/logo/apskin.png"
+                    alt="APSKIN"
+                    className="h-16 w-auto object-contain sm:h-20"
+                    loading="lazy"
+                  />
+                </div>
               </div>
-              <p className="mt-4 text-xs font-semibold text-zinc-400 uppercase tracking-widest">Co-Host</p>
             </div>
           </div>
         </section>
