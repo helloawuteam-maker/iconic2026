@@ -391,6 +391,10 @@ export default function Home() {
                     <span className="font-bold text-zinc-600">Account Number</span>
                     <strong className="font-black">8223653888</strong>
                   </div>
+                  <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-sm">
+                    <span className="font-bold text-zinc-600">Swift Code</span>
+                    <strong className="font-black">CENAIDJA</strong>
+                  </div>
                 </div>
 
                 <p className="mt-4 text-sm text-zinc-700">
@@ -406,9 +410,7 @@ export default function Home() {
                   <br />
                   – The payment receipt
                   <br />
-                  – Proof of APSKIN membership (optional)
-                  <br />
-                  – Student ID card (optional)
+                  – Proof of IEEE membership (optional)
                 </p>
 
                 <a
@@ -420,9 +422,6 @@ export default function Home() {
                   Confirmation of Payment &amp; Registration
                 </a>
 
-                <p className="mt-3 text-xs text-zinc-500">
-                  Replace this button link with your actual confirmation form URL.
-                </p>
               </div>
             </div>
           </div>
