@@ -34,11 +34,12 @@ export default function AuthorInformationPage() {
             <li className="list-disc">Communication, Networking, and Broadcasting</li>
             <li className="list-disc">Information System</li>
             <li className="list-disc">Power, Energy, and Industry Applications</li>
-            <li className="list-disc">Multidisciplinary Sciences (Chemistry, Physics, Biology, Environmental Science, and more)</li>
           </ul>
           <p className="mt-3 text-sm text-zinc-700">
             Submitted papers must be original, not previously published, and not under review elsewhere. All submissions will be
-            peer-reviewed.
+            peer-reviewed. Accepted papers will be submitted for inclusion into <strong className="font-black text-zinc-900">IEEE Xplore</strong> subject
+            to meeting IEEE Xplore&apos;s scope and quality requirements. However, <strong className="font-black text-zinc-900">non-presented</strong> papers
+            will be suppressed from inclusion in Xplore.
           </p>
         </section>
 
@@ -46,24 +47,24 @@ export default function AuthorInformationPage() {
           <h2 className="text-xl font-black">Important Dates</h2>
           <dl className="mt-4 grid gap-3 text-sm">
             <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
-              <dt className="font-black text-zinc-900">Registration and Abstract</dt>
-              <dd className="font-semibold text-zinc-700">August 20, 2026</dd>
+              <dt className="font-black text-zinc-900">Call for Paper</dt>
+              <dd className="font-semibold text-zinc-700">February 20, 2026</dd>
+            </div>
+            <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
+              <dt className="font-black text-zinc-900">Submission Deadline</dt>
+              <dd className="font-semibold text-zinc-700">August 25, 2026</dd>
             </div>
             <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
               <dt className="font-black text-zinc-900">Notification of Acceptance</dt>
-              <dd className="font-semibold text-zinc-700">August 21, 2026</dd>
-            </div>
-            <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
-              <dt className="font-black text-zinc-900">Deadline of Payment</dt>
-              <dd className="font-semibold text-zinc-700">August 24, 2026</dd>
+              <dd className="font-semibold text-zinc-700">August 26, 2026</dd>
             </div>
             <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
               <dt className="font-black text-zinc-900">Full Paper (Camera Ready)</dt>
-              <dd className="font-semibold text-zinc-700">September 16, 2026</dd>
+              <dd className="font-semibold text-zinc-700">September 6, 2026</dd>
             </div>
             <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
               <dt className="font-black text-zinc-900">Main Conference</dt>
-              <dd className="font-semibold text-zinc-700">August 28, 2026</dd>
+              <dd className="font-semibold text-zinc-700">August 28–30, 2026</dd>
             </div>
           </dl>
         </section>
@@ -90,6 +91,15 @@ export default function AuthorInformationPage() {
             strictly (paper size, margins, fonts, and reference style). Submissions should be written in clear English and present
             sufficient technical detail to support reproducibility.
           </p>
+          <div className="mt-4 flex items-start gap-3 rounded-xl border border-[#2b327e]/20 bg-[#2b327e]/5 px-4 py-3">
+            <span className="mt-0.5 text-base">📋</span>
+            <p className="text-sm font-semibold text-[#2b327e]">
+              All manuscripts must comply with the <strong className="font-black">IEEE Author Guidelines</strong> — including formatting, ethics, and originality standards. Please refer to the official IEEE guidelines at{" "}
+              <a href="https://ieeeauthorcenter.ieee.org/" target="_blank" rel="noopener" className="underline hover:opacity-80">
+                ieeeauthorcenter.ieee.org
+              </a>.
+            </p>
+          </div>
           <h3 className="mt-5 text-sm font-black text-zinc-900">Guidelines</h3>
           <p className="mt-2 text-sm text-zinc-700">
             All papers must be submitted electronically through the submission system at{" "}
@@ -178,7 +188,7 @@ export default function AuthorInformationPage() {
             </a>
             <a
               className="inline-flex items-center justify-center rounded-xl border border-[#633193]/25 bg-white px-6 py-3 text-sm font-black text-[#633193] hover:bg-[#633193]/10"
-              href="https://docs.google.com/document/d/1teY5RQxZFEVtLHmTnxPCQroBIbnhEpDT/edit?usp=sharing&ouid=102284237185700741961&rtpof=true&sd=true"
+              href="https://ieee-org.widen.net/content/ge5anzdecd/original/conference-template-a4.docx"
               target="_blank"
               rel="noopener"
             >

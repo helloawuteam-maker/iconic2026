@@ -59,7 +59,7 @@ export default function TrackSlider({ heading, tracks }: TrackSliderProps) {
 
         <div
           ref={scrollerRef}
-          className="mt-10 flex snap-x snap-mandatory items-stretch gap-4 overflow-x-auto pb-4 [-webkit-overflow-scrolling:touch] lg:grid lg:grid-cols-3 lg:overflow-visible lg:pb-0 xl:grid-cols-6"
+          className="mt-10 flex snap-x snap-mandatory items-stretch gap-4 overflow-x-auto pb-4 [-webkit-overflow-scrolling:touch] lg:grid lg:grid-cols-5 lg:overflow-visible lg:pb-0"
         >
           {tracks.map((t, idx) => (
             <div

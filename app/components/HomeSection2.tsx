@@ -36,7 +36,10 @@ export default function HomeSection2() {
             <p>
               We welcome contributions that advance methods, systems, and applications; report evidence from real deployments;
               and propose frameworks that strengthen reliability, usability, fairness, and societal value. Together, let us
-              build technologies that are not only novel, but also dependable and meaningful.
+              build technologies that are not only novel, but also dependable and meaningful. Accepted papers will be submitted
+              for inclusion into <strong className="font-black">IEEE Xplore</strong> subject to meeting IEEE Xplore&apos;s scope
+              and quality requirements. However, <strong className="font-black">non-presented</strong> papers will be suppressed
+              from inclusion in Xplore.
             </p>
           </div>
         </div>

@@ -18,11 +18,11 @@ type Speaker = {
 };
 
 const importantDates: DateRow[] = [
-  { label: "Registration and Abstract", value: "August 20, 2026" },
-  { label: "Notification of Acceptance", value: "August 21, 2026" },
-  { label: "Deadline of Payment", value: "August 24, 2026" },
-  { label: "Full Paper (Camera Ready)", value: "September 16, 2026" },
-  { label: "Main Conference", value: "August 28, 2026" },
+  { label: "Call for Paper", value: "February 20, 2026" },
+  { label: "Submission Deadline", value: "August 25, 2026" },
+  { label: "Notification of Acceptance", value: "August 26, 2026" },
+  { label: "Full Paper (Camera Ready)", value: "September 6, 2026" },
+  { label: "Main Conference", value: "August 28–30, 2026" },
 ];
 
 const keynoteSpeakers: Speaker[] = [
@@ -131,23 +131,6 @@ const homeTracks = [
     ],
     gradientClassName: "bg-gradient-to-br from-[#1d4ed8] via-[#2563eb] to-[#1e3a8a]",
   },
-  {
-    id: "track-6",
-    label: "T6",
-    title: "Multidisciplinary Sciences",
-    topics: [
-      "Applied Chemistry and Chemical Engineering",
-      "Physics and Applied Physics",
-      "Mathematics, Statistics, and Modeling",
-      "Biological Sciences and Biotechnology",
-      "Environmental and Sustainability Science",
-      "Materials Science and Nanotechnology",
-      "Earth and Atmospheric Sciences",
-      "Biomedical Engineering and Health Sciences",
-      "Interdisciplinary Systems and Innovation",
-    ],
-    gradientClassName: "bg-gradient-to-br from-[#78350f] via-[#92400e] to-[#3b1205]",
-  },
 ] as const;
 
 export default function Home() {
@@ -199,7 +182,7 @@ export default function Home() {
                   Bridging Human Behavior and Social Dynamics for Trustworthy, High-Quality Technology
                 </h2>
 
-                <div className="mt-5 flex flex-wrap justify-center gap-3">
+                <div className="mt-5 flex flex-wrap items-center justify-center gap-3">
                   <a
                     className="inline-flex items-center justify-center rounded-xl bg-[#633193] px-10 py-3 text-sm font-black text-white shadow-[0_14px_34px_rgba(99,49,147,0.35)] hover:bg-[#5a2c86]"
                     href="https://seminar.apskin.org/index.php/ICONIQ"
@@ -218,16 +201,16 @@ export default function Home() {
                     </div>
                     <div className="px-5 py-4">
                       <dt className="text-xs font-black uppercase tracking-[0.18em] text-white/90">Event Format</dt>
-                      <dd className="mt-2 text-sm font-semibold text-white">Virtual</dd>
+                      <dd className="mt-2 text-sm font-semibold text-white">Hybrid (Onsite &amp; Virtual)</dd>
                     </div>
                     <div className="px-5 py-4">
                       <dt className="text-xs font-black uppercase tracking-[0.18em] text-white/90">Call / Whatsapp</dt>
                       <dd className="mt-2 text-sm font-semibold">
-                        <a className="text-white hover:underline" href="tel:+6289524180486">
+                        <a className="text-white hover:underline" href="https://wa.me/6289524180486" target="_blank" rel="noopener">
                           +62 895-2418-0486
                         </a>
                         <span className="text-white/80"> / </span>
-                        <a className="text-white hover:underline" href="tel:+62895335857578">
+                        <a className="text-white hover:underline" href="https://wa.me/62895335857578" target="_blank" rel="noopener">
                           +62 895-3358-57578
                         </a>
                       </dd>
@@ -245,22 +228,6 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-6 rounded-2xl bg-white p-4 shadow-sm">
-              <div className="grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
-                <div className="col-span-2 flex items-center rounded-xl border border-black/10 bg-white px-4 py-4 md:col-span-1">
-                  <h3 className="text-sm font-black text-zinc-900">Supported by</h3>
-                </div>
-                {["/logo/akb.jpeg", "/logo/awu.png", "/logo/nozomi.jpeg"].map((src) => (
-                  <div
-                    key={src}
-                    className="flex items-center justify-center rounded-xl border border-black/10 bg-white px-4 py-5"
-                    aria-label="Supporter"
-                  >
-                    <img src={src} alt="Supporter logo" className="h-16 w-auto max-w-full object-contain" loading="lazy" />
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
         </section>
 
@@ -349,31 +316,55 @@ export default function Home() {
               <table className="w-full border-separate border-spacing-0">
                 <thead>
                   <tr>
-                    <th className="bg-[#2b327e] px-4 py-3 text-left text-sm font-black text-white">Category</th>
-                    <th className="bg-[#2b327e] px-4 py-3 text-center text-sm font-black text-white">Online</th>
-                    <th className="bg-[#2b327e] px-4 py-3 text-center text-sm font-black text-white">Offline</th>
+                    <th className="bg-[#2b327e] px-4 py-3 text-left text-sm font-black text-white rounded-tl-2xl">Category</th>
+                    <th className="bg-[#2b327e] px-4 py-3 text-center text-sm font-black text-white">Fee (Onsite &amp; Virtual)</th>
+                    <th className="bg-[#2b327e] px-4 py-3 text-center text-sm font-black text-white rounded-tr-2xl">Type</th>
                   </tr>
                 </thead>
                 <tbody className="text-sm font-semibold text-zinc-800">
+                  {/* Presenter group header */}
+                  <tr>
+                    <td colSpan={3} className="bg-[#f0f2ff] px-4 py-2 text-xs font-black uppercase tracking-widest text-[#2b327e]">Presenter</td>
+                  </tr>
+                  <tr>
+                    <td className="border-b border-black/5 px-4 py-3 font-black text-zinc-900">Indonesian Presenter</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center font-black text-zinc-900">Rp 3,000,000</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center text-zinc-500">Onsite &amp; Virtual</td>
+                  </tr>
+                  <tr className="bg-black/[0.015]">
+                    <td className="border-b border-black/5 px-4 py-3 font-black text-zinc-900">
+                      Indonesian Presenter
+                      <span className="ml-2 rounded-full bg-[#633193]/10 px-2 py-0.5 text-xs font-black text-[#633193]">APSKIN Member</span>
+                    </td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center font-black text-zinc-900">Rp 2,500,000</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center text-zinc-500">Onsite &amp; Virtual</td>
+                  </tr>
                   <tr>
                     <td className="border-b border-black/5 px-4 py-3 font-black text-zinc-900">International Presenter</td>
-                    <td className="border-b border-black/5 px-4 py-3 text-center">35 USD</td>
-                    <td className="border-b border-black/5 px-4 py-3 text-center">70 USD</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center font-black text-zinc-900">USD 175</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center text-zinc-500">Onsite &amp; Virtual</td>
                   </tr>
                   <tr className="bg-black/[0.015]">
-                    <td className="border-b border-black/5 px-4 py-3 font-black text-zinc-900">Indonesian Presenter</td>
-                    <td className="border-b border-black/5 px-4 py-3 text-center">IDR 500,000</td>
-                    <td className="border-b border-black/5 px-4 py-3 text-center">IDR 1,000,000</td>
+                    <td className="border-b border-black/5 px-4 py-3 font-black text-zinc-900">
+                      International Presenter
+                      <span className="ml-2 rounded-full bg-[#633193]/10 px-2 py-0.5 text-xs font-black text-[#633193]">APSKIN Member</span>
+                    </td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center font-black text-zinc-900">USD 175</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center text-zinc-500">Onsite &amp; Virtual</td>
+                  </tr>
+                  {/* Participant group header */}
+                  <tr>
+                    <td colSpan={3} className="bg-[#f0f2ff] px-4 py-2 text-xs font-black uppercase tracking-widest text-[#2b327e]">Participant Only</td>
                   </tr>
                   <tr>
-                    <td className="border-b border-black/5 px-4 py-3 font-black text-zinc-900">International Participant</td>
-                    <td className="border-b border-black/5 px-4 py-3 text-center">10 USD</td>
-                    <td className="border-b border-black/5 px-4 py-3 text-center">35 USD</td>
+                    <td className="border-b border-black/5 px-4 py-3 font-black text-zinc-900">Indonesian Participant</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center font-black text-zinc-900">Rp 600,000</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center text-zinc-500">Onsite &amp; Virtual</td>
                   </tr>
                   <tr className="bg-black/[0.015]">
-                    <td className="px-4 py-3 font-black text-zinc-900">Indonesian Participant</td>
-                    <td className="px-4 py-3 text-center">IDR 100,000</td>
-                    <td className="px-4 py-3 text-center">IDR 600,000</td>
+                    <td className="px-4 py-3 font-black text-zinc-900">International Participant</td>
+                    <td className="px-4 py-3 text-center font-black text-zinc-900">USD 35</td>
+                    <td className="px-4 py-3 text-center text-zinc-500">Onsite &amp; Virtual</td>
                   </tr>
                 </tbody>
               </table>
@@ -446,7 +437,7 @@ export default function Home() {
                 <div className="mt-6 flex justify-center md:justify-start">
                   <a
                     className="inline-flex items-center justify-center rounded-2xl bg-[#633193] px-8 py-3 text-sm font-black text-white shadow-sm hover:bg-[#5a2c86]"
-                    href="https://docs.google.com/document/d/1teY5RQxZFEVtLHmTnxPCQroBIbnhEpDT/edit?usp=sharing&ouid=102284237185700741961&rtpof=true&sd=true"
+                    href="https://ieee-org.widen.net/content/ge5anzdecd/original/conference-template-a4.docx"
                     target="_blank"
                     rel="noopener"
                   >
@@ -475,42 +466,23 @@ export default function Home() {
 
         <section className="bg-white py-16">
           <div className="mx-auto w-full max-w-6xl px-5">
-            <div className="grid gap-12 md:grid-cols-2">
-              <div className="text-center">
-                <h3 className="text-xl font-black text-[#2b327e]">Organized by</h3>
-                <div className="mt-8 flex flex-wrap items-center justify-center gap-6">
-                  <div className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
-                    <img
-                      src="/logo/apskin.png"
-                      alt="APSKIN"
-                      className="h-16 w-auto object-contain sm:h-20"
-                      loading="lazy"
-                    />
+            <div className="text-center">
+              <h3 className="text-xl font-black text-[#2b327e]">Organized by</h3>
+              <div className="mt-8 flex flex-wrap items-center justify-center gap-6">
+                {[
+                  { src: "/logo/apskin.png", alt: "APSKIN" },
+                  { src: "/logo/ieeeims.png", alt: "IEEE IMS" },
+                ].map(({ src, alt }) => (
+                  <div key={src} className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
+                    <img src={src} alt={alt} className="h-16 w-auto object-contain sm:h-20" loading="lazy" />
                   </div>
-                </div>
-              </div>
-              <div className="text-center">
-                <h3 className="text-xl font-black text-[#2b327e]">Co-Host</h3>
-                <div className="mt-8 flex flex-wrap items-center justify-center gap-6">
-                  {[
-                    { src: "/logo/uhn.png", alt: "UHN" },
-                    { src: "/logo/ins.png", alt: "INSTIKI" },
-                  ].map(({ src, alt }) => (
-                    <div key={src} className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
-                      <img
-                        src={src}
-                        alt={alt}
-                        className="h-16 w-auto object-contain sm:h-20"
-                        loading="lazy"
-                      />
-                    </div>
-                  ))}
-                </div>
+                ))}
               </div>
             </div>
           </div>
         </section>
       </main>
+
 
       <SiteFooter />
     </div>

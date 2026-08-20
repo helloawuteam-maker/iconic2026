@@ -104,21 +104,6 @@ export default function ProgramsPage() {
             </ul>
           </section>
 
-          <section id="track-6" className="mt-4 rounded-2xl border border-black/5 bg-white p-5">
-            <h3 className="text-lg font-black">Track 6: Multidisciplinary Sciences</h3>
-            <p className="mt-2 text-sm text-zinc-500">Not limited to the topics below — all interdisciplinary and applied science submissions are welcome.</p>
-            <ul className="mt-3 grid gap-2 text-sm text-zinc-700 md:grid-cols-2">
-              <li>Applied Chemistry and Chemical Engineering</li>
-              <li>Physics and Applied Physics</li>
-              <li>Mathematics, Statistics, and Modeling</li>
-              <li>Biological Sciences and Biotechnology</li>
-              <li>Environmental and Sustainability Science</li>
-              <li>Materials Science and Nanotechnology</li>
-              <li>Earth and Atmospheric Sciences</li>
-              <li>Biomedical Engineering and Health Sciences</li>
-              <li>Interdisciplinary Systems and Innovation</li>
-            </ul>
-          </section>
         </section>
       </main>
 
