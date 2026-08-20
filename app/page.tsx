@@ -157,7 +157,7 @@ export default function Home() {
             <div className="grid">
               <div className="text-center">
                 <h2 className="text-sm font-black uppercase tracking-[0.18em] text-white/95 md:text-base">
-                  August 28, 2026 | Four Star by Trans Hotel, Bali Indonesia
+                  August 28–30, 2026 | Four Star by Trans Hotel, Bali Indonesia
                 </h2>
 
                 <h1 className="mt-5 text-4xl font-black uppercase leading-[0.92] tracking-wide drop-shadow md:text-6xl">
@@ -246,7 +246,7 @@ export default function Home() {
             <p className="mt-4 text-sm font-black opacity-95">
               Four Star by Trans Hotel, Bali Indonesia
               <br />
-              August 28, 2026
+              August 28–30, 2026
             </p>
           </div>
         </section>
