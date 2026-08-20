@@ -334,7 +334,7 @@ export default function Home() {
                   <tr className="bg-black/[0.015]">
                     <td className="border-b border-black/5 px-4 py-3 font-black text-zinc-900">
                       Indonesian Presenter
-                      <span className="ml-2 rounded-full bg-[#633193]/10 px-2 py-0.5 text-xs font-black text-[#633193]">APSKIN Member</span>
+                      <span className="ml-2 rounded-full bg-[#633193]/10 px-2 py-0.5 text-xs font-black text-[#633193]">IEEE Member</span>
                     </td>
                     <td className="border-b border-black/5 px-4 py-3 text-center font-black text-zinc-900">Rp 2,500,000</td>
                     <td className="border-b border-black/5 px-4 py-3 text-center text-zinc-500">Onsite &amp; Virtual</td>
@@ -347,7 +347,7 @@ export default function Home() {
                   <tr className="bg-black/[0.015]">
                     <td className="border-b border-black/5 px-4 py-3 font-black text-zinc-900">
                       International Presenter
-                      <span className="ml-2 rounded-full bg-[#633193]/10 px-2 py-0.5 text-xs font-black text-[#633193]">APSKIN Member</span>
+                      <span className="ml-2 rounded-full bg-[#633193]/10 px-2 py-0.5 text-xs font-black text-[#633193]">IEEE Member</span>
                     </td>
                     <td className="border-b border-black/5 px-4 py-3 text-center font-black text-zinc-900">USD 175</td>
                     <td className="border-b border-black/5 px-4 py-3 text-center text-zinc-500">Onsite &amp; Virtual</td>
