@@ -539,8 +539,6 @@ export default function OrganizationPage() {
                     <td className="px-4 py-3 font-semibold text-zinc-800">Secretary</td>
                     <td className="px-4 py-3 text-zinc-700">
                       Dr.Eng. Adelhard Beni Rehiara, S.T., M.Eng. (Chair)
-                      <br />
-                      Shindi Shella May Wara, M. Stat. (Co-chair)
                     </td>
                   </tr>
                   <tr className="align-top">
