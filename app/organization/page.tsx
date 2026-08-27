@@ -529,57 +529,35 @@ export default function OrganizationPage() {
                   </tr>
                   <tr className="align-top">
                     <td className="px-4 py-3 font-semibold text-zinc-800">Technical Program</td>
-                    <td className="px-4 py-3 text-zinc-700">
-                      Dr. Eng. Ir. Dwi Arman Prasetya, ST., MT., IPU (Chair)
-                      <br />
-                      Dr. Eng, Ir. Irfan Mujahidin, S.T., M.T., M.Sc., IPP (Co-chair)
-                    </td>
+                    <td className="px-4 py-3 text-zinc-500">–</td>
                   </tr>
                   <tr className="align-top">
                     <td className="px-4 py-3 font-semibold text-zinc-800">Secretary</td>
-                    <td className="px-4 py-3 text-zinc-700">
-                      Dr.Eng. Adelhard Beni Rehiara, S.T., M.Eng. (Chair)
-                    </td>
+                    <td className="px-4 py-3 text-zinc-500">–</td>
                   </tr>
                   <tr className="align-top">
                     <td className="px-4 py-3 font-semibold text-zinc-800">Secretariat</td>
-                    <td className="px-4 py-3 text-zinc-700">
-                      Dr. Eng., Nurlaili Humaidah, S.T., M.T. (Chair)
-                    </td>
+                    <td className="px-4 py-3 text-zinc-500">–</td>
                   </tr>
                   <tr className="align-top">
                     <td className="px-4 py-3 font-semibold text-zinc-800">Event Division</td>
-                    <td className="px-4 py-3 text-zinc-700">
-                      Dr. Agustami Sitorus, M.Sc. (Chair)
-                    </td>
+                    <td className="px-4 py-3 text-zinc-500">–</td>
                   </tr>
                   <tr className="align-top">
                     <td className="px-4 py-3 font-semibold text-zinc-800">Publication</td>
-                    <td className="px-4 py-3 text-zinc-700">
-                      Dr.Eng. Puput Dani Prasetyo Adi, S.Kom., M.T. (Chair)
-                      <br />
-                      Lintang Inggrihaning Putri, S.Ak. (Member)
-                    </td>
+                    <td className="px-4 py-3 text-zinc-500">–</td>
                   </tr>
                   <tr className="align-top">
                     <td className="px-4 py-3 font-semibold text-zinc-800">International Program</td>
-                    <td className="px-4 py-3 text-zinc-700">
-                      Dr. Iwan Pramesti Anwar, S.Si., M.Si. (Chair)
-                    </td>
+                    <td className="px-4 py-3 text-zinc-500">–</td>
                   </tr>
                   <tr className="align-top">
                     <td className="px-4 py-3 font-semibold text-zinc-800">Sponsorship and Promotion</td>
-                    <td className="px-4 py-3 text-zinc-700">
-                      Dr.Eng. Ir. Muhammad Abdillah, S.T., M.T., IPM (Chair)
-                      <br />
-                      Yoga Samudra, S.Kom., M.Kom. (Co-chair)
-                    </td>
+                    <td className="px-4 py-3 text-zinc-500">–</td>
                   </tr>
                   <tr className="align-top">
                     <td className="px-4 py-3 font-semibold text-zinc-800">General Affairs</td>
-                    <td className="px-4 py-3 text-zinc-700">
-                      Nurul Awaliyah Mukhlis, M.Pd. (Chair)
-                    </td>
+                    <td className="px-4 py-3 text-zinc-500">–</td>
                   </tr>
                 </tbody>
               </table>

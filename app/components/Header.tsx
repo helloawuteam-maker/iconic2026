@@ -32,12 +32,6 @@ export default function Header() {
           { label: "Submission", href: "/author-information#submission" },
         ],
       },
-      {
-        label: "Organization",
-        children: [
-          { label: "Committee", href: "/organization#committee" },
-        ],
-      },
       { label: "Sponsorship", href: "/sponsorship" },
       { label: "Contact Us", href: "/contact" },
     ],
